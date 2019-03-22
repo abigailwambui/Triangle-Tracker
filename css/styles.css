@@ -9,7 +9,7 @@ h2 {
   color: pink;
   }
 html {
-  background-image: url(/home/abigail/Documents/Moringaschoolprojects/WeektwoIP/images/backgroundimage4.jpg);
+  background-image: url('../images/backgroundimage4.jpg');
 }
 .button {
   text-indent: 550px;
@@ -19,4 +19,9 @@ h3 {
 }
 .images {
   float: left;
+}
+.link {
+  color: white;
+  font-size: 18px;
+  text-indent: 100px;
 }
