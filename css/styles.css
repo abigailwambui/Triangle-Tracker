@@ -17,3 +17,6 @@ html {
 h3 {
   color: purple;
 }
+.images {
+  float: left;
+}
