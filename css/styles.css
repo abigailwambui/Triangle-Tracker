@@ -1,14 +1,12 @@
 .image {
   Float: left;
-  text-indent: 2000px;
+  text-indent: 200px;
 }
   h1 {
     color: pink;
-    text-align: center;
     }
 h2 {
   color: pink;
-  text-align: center;
   }
 html {
   background-image: url(/home/abigail/Documents/Moringaschoolprojects/WeektwoIP/images/backgroundimage4.jpg);
