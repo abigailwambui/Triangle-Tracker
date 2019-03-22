@@ -1,5 +1,6 @@
 .image {
   Float: left;
+  text-indent: 2000px;
 }
   h1 {
     color: pink;
@@ -7,8 +8,11 @@
     }
 h2 {
   color: pink;
+  text-align: center;
   }
 html {
   background-image: url(/home/abigail/Documents/Moringaschoolprojects/WeektwoIP/images/backgroundimage4.jpg);
-
+}
+.button {
+  text-indent: 550px;
 }
