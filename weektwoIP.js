@@ -9,7 +9,7 @@ var correct = function(number1, number2, number3) {
   if (correct(number1, number2, number3) && number1===number2 && number2===number3) {
   alert ('Equilateral Tringle');
   }
-  else if (correct(number1, number2, number3) && number1===number2 || number2===number3 && number1===number3) {
+  else if (correct(number1, number2, number3) && number1===number2!==number3 && number2===number3!==number1 && number3===number1!==number2) {
   alert ('Isoceles Triangle');
   }
   else if (correct(number1, number2, number3) &&
