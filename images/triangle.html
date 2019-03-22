@@ -1,0 +1,2481 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" xmlns:fb="http://developers.facebook.com/schema/" xmlns:og="http://opengraphprotocol.org/schema/" class="no-js"> <!--<![endif]-->
+  <head>
+              <!-- skipping hreflang -->
+
+    
+    <link rel="dns-prefetch" href="//static.videezy.com">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"8807cf62c6","applicationID":"8328975","transactionName":"cl0NR0UNXlpTQ0wWUVBAAFtSER1FXl4U","queueTime":0,"applicationTime":191,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <script src="https://static.videezy.com/assets/gdpr-cmp-ccd6c3ad7ca8174607bfe2a8a79effe9.js" type="text/javascript"></script>
+    <title>Free Triangle Stock Video Footage - (36 Free Downloads)</title>
+<meta content="36 Best Triangle Free Video Clip Downloads from the Videezy community. Free Triangle Stock Video Footage licensed under creative commons, open source, and more!" name="description" />
+<meta content="Videezy" property="og:site_name" />
+<meta content="Free Triangle Stock Video Footage - (36 Free Downloads)" property="og:title" />
+<meta content="https://www.videezy.com/free-video/triangle" property="og:url" />
+<meta content="en_US" property="og:locale" />
+<meta content="de_DE" property="og:locale:alternate" />
+<meta content="es_ES" property="og:locale:alternate" />
+<meta content="fr_FR" property="og:locale:alternate" />
+<meta content="nl_NL" property="og:locale:alternate" />
+<meta content="pt_BR" property="og:locale:alternate" />
+<meta content="sv_SE" property="og:locale:alternate" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"></link>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="https://static.videezy.com/assets/modernizr.custom.83825-93372fb200ead74f1d44254d993c5440.js" type="text/javascript"></script>
+    <link href="https://static.videezy.com/assets/application-69b7947a8002fd4222d1ed014d94259c.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://static.videezy.com/assets/print-ac38768f09270df2214d2c500c647adc.css" media="print" rel="stylesheet" type="text/css" />
+    <link href="https://feeds.feedburner.com/eezyinc/videezy-images" rel="alternate" title="RSS" type="application/rss+xml" />
+
+          <link rel="canonical" href="https://www.videezy.com/free-video/triangle">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="tM3WGuXnjyK3hHDCN673wvarwYhikAeuLLbvsK2QL7U=" name="csrf-token" />
+    <!-- Begin TextBlock "HTML - Head" -->
+<meta name="google-site-verification" content="mOMyvrYVQGuqwse7CZihEeIr5hGdSrWfID9O45QHsTQ" />
+<meta name="google-site-verification" content="HVgu-k8b6XG1SEaxL29j0XcOV33Uz5qneXtpGDQgCS4" />
+<!--<script type="text/javascript" src="//api.xeezy.com/api.min.js"></script>-->
+<meta name="referrer" content="unsafe-url" />
+
+<meta name="msvalidate.01" content="9E7A3F56C01FB9B69FCDD1FBD287CAE4" />
+</script>
+
+<meta name="p:domain_verify" content="9949c020348e97fc55305d8f9567e26b"/>
+<!-- TradeDoubler site verification 2802549 -->
+<meta name="google-site-verification" content="Kyua5JM6jqFQ6WxVq5b-tT2OxzLMy9QYKI9G2MAGbBo" />
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter49058372 = new Ya.Metrika({
+                    id:49058372,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/49058372" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- End TextBlock "HTML - Head" -->
+      <link href="https://static.videezy.com/assets/splittests/new_search_ui-0dfed4686c91fcadff63dcf5df0066d6.css" media="screen" rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript">
+    window.searchScope = 'External';
+  </script>
+    
+
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "videezy",
+        "url": "https://www.videezy.com"
+      }
+   </script>
+
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://www.videezy.com",
+      "logo": "https://static.videezy.com/assets/structured_data/videezy-logo-52625561c3550f3947fbf5fbfd3614a4.svg",
+      "sameAs": [
+        "https://www.facebook.com/videezy",
+        "https://twitter.com/videezy",
+        "https://pinterest.com/videezy/",
+        "https://www.youtube.com/videezy",
+        "https://instagram.com/eezy/",
+        "https://www.snapchat.com/add/eezy",
+        "https://google.com/+vecteezy"
+      ]
+     }
+    </script>
+
+  </head>
+
+  <body class="  full-width-search fullwidth has-sticky-header redesign-layout searches-show">
+     <script src="//rocinante.themediashop.co/library/videezy.js" async data-tmsclient="Videezy" data-layout="search" data-debug="false" data-lazy="true" data-targeting='{"page-type":"search"}'></script>
+
+
+    
+      
+
+    <div id="fb-root"></div>
+
+
+
+      <header class="site-header ">
+<div class="max-inner is-logged-out">
+    <figure class="site-logo">
+      <a href="https://www.videezy.com/" alt="Videezy"><img alt="Free HD Stock Video at Videezy" src="https://static.videezy.com/assets/videezy/videezy-logo-96c769aa52a91cac6fa59c746e388dbb.svg" title="Videezy" /></a>
+    </figure>
+    <nav class="logged-out-nav">
+        <ul class="header-menu">
+            <li>
+              <a href="/signup" data-remote="true" onclick="track_header_join_eezy_click();">Join Eezy!</a>
+            </li>
+          <li>
+            <a href="/login" class="login-link" data-remote="true" onclick="track_header_login_click();">Login</a>
+          </li>
+        </ul>
+
+
+    </nav><!-- .logged-in-nav/.logged-out-nav -->
+        <form accept-charset="UTF-8" action="/free-video" class="search-form" data-behavior="" id="search-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tM3WGuXnjyK3hHDCN673wvarwYhikAeuLLbvsK2QL7U=" /></div>
+  <input id="from" name="from" type="hidden" value="mainsite" />
+    <input id="in_se" name="in_se" type="hidden" value="true" />
+    <div class="inputs-wrapper">
+        <input class="search-term" id="search-term" name="search" placeholder="Enter Keyword(s)" type="text" value="triangle" />
+
+      <input class="search-submit" name="commit" type="submit" value="Search" />
+    </div>
+
+</form>
+  </div><!-- .max-inner -->
+
+    
+    <!-- Search Tags -->
+    <div class="ez-search-tags">
+      
+<link href="https://static.videezy.com/assets/tags_carousel-ac4ce9b2c3307c2e27a01901d1d6951c.css" media="screen" rel="stylesheet" type="text/css" />
+
+<div class="outer-tags-wrap" >
+  <div class="rs-carousel">
+    <ul class="tags-wrap">
+          <li class="tag">
+            <a href="/free-video/background" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;background&#x27;, &#x27;triangle&#x27;);" title="background">
+              <span>
+                background
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/uhd" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;uhd&#x27;, &#x27;triangle&#x27;);" title="uhd">
+              <span>
+                uhd
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/4k" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;4k&#x27;, &#x27;triangle&#x27;);" title="4k">
+              <span>
+                4k
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/animation" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;animation&#x27;, &#x27;triangle&#x27;);" title="animation">
+              <span>
+                animation
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/motion" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;motion&#x27;, &#x27;triangle&#x27;);" title="motion">
+              <span>
+                motion
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/shape" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;shape&#x27;, &#x27;triangle&#x27;);" title="shape">
+              <span>
+                shape
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/color" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;color&#x27;, &#x27;triangle&#x27;);" title="color">
+              <span>
+                color
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/abstract" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;abstract&#x27;, &#x27;triangle&#x27;);" title="abstract">
+              <span>
+                abstract
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/cgi" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;cgi&#x27;, &#x27;triangle&#x27;);" title="cgi">
+              <span>
+                cgi
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/cg" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;cg&#x27;, &#x27;triangle&#x27;);" title="cg">
+              <span>
+                cg
+              </span>
+</a>          </li>
+          <li class="tag">
+            <a href="/free-video/3d" class="tag-link" onclick="track(&#x27;tag_click&#x27;, &#x27;3d&#x27;, &#x27;triangle&#x27;);" title="3d">
+              <span>
+                3d
+              </span>
+</a>          </li>
+    </ul>
+  </div>
+</div>
+
+<script defer="defer" src="https://static.videezy.com/assets/jquery.ui.widget-0763685ac5d9057e21eac4168b755b9a.js" type="text/javascript"></script>
+<script defer="defer" src="https://static.videezy.com/assets/jquery.event.drag-3d54f98bab25c12a9b9cc1801f3e1c4b.js" type="text/javascript"></script>
+<script defer="defer" src="https://static.videezy.com/assets/jquery.translate3d-6277fde3b8b198a2da2aa8e4389a7c84.js" type="text/javascript"></script>
+<script defer="defer" src="https://static.videezy.com/assets/jquery.rs.carousel-5763ad180bc69cb2b583cd5d42a9c231.js" type="text/javascript"></script>
+<script defer="defer" src="https://static.videezy.com/assets/jquery.rs.carousel-touch-c5c93eecbd1da1af1bce8f19e8f02105.js" type="text/javascript"></script>
+<script defer="defer" src="https://static.videezy.com/assets/tags-carousel-bb78c5a4ca2798d203e5b9c09f22846d.js" type="text/javascript"></script>
+
+    </div>
+</header>
+
+
+    <div id="body">
+      <div class="content">
+
+        
+
+          
+
+<input id="originalSearchQuery" name="originalSearchQuery" type="hidden" value="triangle" />
+
+<button class="filter-sidebar-open-btn btn primary flat" title="Filters">Filters</button>
+
+<div class="content-inner">
+  <aside id="filter-sidebar">
+
+
+
+      <link href="https://static.videezy.com/assets/search_filter-f4d0742be71fa71a8632fe28f2586616.css" media="screen" rel="stylesheet" type="text/css" />
+
+<div class="filter-inner full ">
+  <button class="filter-sidebar-close-btn">Close</button>
+
+  <h4>Sort by:</h4>
+  <ul class="search-options">
+    <li>
+      
+<div class="check--wrapper">
+  <div class="check--box checked  radio" data-filter-param="sort-best"></div>
+  <div class="check--label">Best Match</div>
+
+</div>
+    </li>
+    <li>
+      
+<div class="check--wrapper">
+  <div class="check--box   radio" data-filter-param="sort-newest"></div>
+  <div class="check--label">Newest</div>
+
+</div>
+    </li>
+  </ul>
+
+  <h4>File Type</h4>
+  <ul class="search-options">
+    <li>
+      
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="content-type-video"></div>
+  <div class="check--label">Stock Video</div>
+
+</div>
+    </li>
+    <li>
+      
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="content-type-after-effects"></div>
+  <div class="check--label">After Effects</div>
+
+</div>
+    </li>
+  </ul>
+
+  <h4>License type:</h4>
+  <ul class="search-options">
+    <li>
+      
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="license-standard"></div>
+  <div class="check--label">Standard</div>
+
+    <span class="ez-tooltip-icon" data-tooltip-position="right top" data-tooltip="&lt;h4&gt;Standard&lt;/h4&gt;&lt;p&gt;This filter will only display footage created by our contributors and reviewed by our moderators. These files are free for use with attribution. An additional license can be purchased to remove attribution requirements.&lt;/p&gt;" title="&lt;h4&gt;Standard&lt;/h4&gt;&lt;p&gt;This filter will only display footage created by our contributors and reviewed by our moderators. These files are free for use with attribution. An additional license can be purchased to remove attribution requirements.&lt;/p&gt;"><svg class="ez-icon-circle-question"><use xlink:href="#ez-icon-circle-question"></use></svg></span>
+</div>
+    </li>
+    <li>
+      
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="license-premium"></div>
+  <div class="check--label">Pro</div>
+
+    <span class="ez-tooltip-icon" data-tooltip-position="right top" data-tooltip="&lt;h4&gt;Pro&lt;/h4&gt;&lt;p&gt;This filter will only display Pro footage that are for sale. Each file comes with a royalty-free license.&lt;/p&gt;" title="&lt;h4&gt;Pro&lt;/h4&gt;&lt;p&gt;This filter will only display Pro footage that are for sale. Each file comes with a royalty-free license.&lt;/p&gt;"><svg class="ez-icon-circle-question"><use xlink:href="#ez-icon-circle-question"></use></svg></span>
+</div>
+    </li>
+    <li>
+      
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="license-cc"></div>
+  <div class="check--label">Creative Commons</div>
+
+    <span class="ez-tooltip-icon" data-tooltip-position="right top" data-tooltip="&lt;h4&gt;Creative Commons&lt;/h4&gt;&lt;p&gt;This filter will only display free footage that must be used according to the Creative Commons guidelines. We do not sell licenses for this footage.&lt;/p&gt;" title="&lt;h4&gt;Creative Commons&lt;/h4&gt;&lt;p&gt;This filter will only display free footage that must be used according to the Creative Commons guidelines. We do not sell licenses for this footage.&lt;/p&gt;"><svg class="ez-icon-circle-question"><use xlink:href="#ez-icon-circle-question"></use></svg></span>
+</div>
+    </li>
+    <li>
+      
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="license-editorial"></div>
+  <div class="check--label">Editorial Use Only</div>
+
+    <span class="ez-tooltip-icon" data-tooltip-position="right top" data-tooltip="&lt;h4&gt;Editorial Use Only&lt;/h4&gt;&lt;p&gt;This filter will only display free footage for use within news articles, non-fiction books, documentaries, or other newsworthy purposes. Do not use in advertisements, merchandise, product packaging, or any other commercial or promotional use.&lt;/p&gt;" title="&lt;h4&gt;Editorial Use Only&lt;/h4&gt;&lt;p&gt;This filter will only display free footage for use within news articles, non-fiction books, documentaries, or other newsworthy purposes. Do not use in advertisements, merchandise, product packaging, or any other commercial or promotional use.&lt;/p&gt;"><svg class="ez-icon-circle-question"><use xlink:href="#ez-icon-circle-question"></use></svg></span>
+</div>
+    </li>
+  </ul>
+  <div class="extended-options">
+    <h4 data-filter-header="resolution">Resolution</h4>
+    <ul data-filter-options="resolutions" class="search-options">
+      <li>
+        
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="resolution-sd"></div>
+  <div class="check--label">SD</div>
+
+</div>
+      </li>
+      <li>
+        
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="resolution-hd720"></div>
+  <div class="check--label">HD - 720</div>
+
+</div>
+      </li>
+      <li>
+        
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="resolution-hd1080"></div>
+  <div class="check--label">HD - 1080</div>
+
+</div>
+      </li>
+      <li>
+        
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="resolution-4k"></div>
+  <div class="check--label">4K</div>
+
+</div>
+      </li>
+      <li>
+        
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="resolution-ultra"></div>
+  <div class="check--label">Ultra HD</div>
+
+</div>
+      </li>
+    </ul>
+
+    <h4>Format</h4>
+    <ul class="search-options">
+      <li>
+        
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="format-mp4"></div>
+  <div class="check--label">MP4</div>
+
+</div>
+      </li>
+      <li>
+        
+<div class="check--wrapper">
+  <div class="check--box   " data-filter-param="format-mov"></div>
+  <div class="check--label">MOV</div>
+
+</div>
+      </li>
+      <!--
+      <li>
+      </li>
+      <li>
+      </li>
+      -->
+    </ul>
+  </div>
+</div>
+
+<button class="btn flat toggle-btn" data-toggle="closed" data-more="More Search Filters" data-less="Less Search Filters">More Search Filters</button>
+
+<button class="btn flat apply-filters-btn">Apply Filters</button>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  
+    <symbol id="ez-icon-plus" viewBox="0 0 512 512">
+      <path d="m512 213l-213 0 0-213-86 0 0 213-213 0 0 86 213 0 0 213 86 0 0-213 213 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-vector-file" viewBox="0 0 512 512">
+      <path d="m356 0l-318 0 0 512 436 0 0-394z m66 461l-332 0 0-410 245 0 87 87z m-179-256c-56 0-102 46-102 102 0 57 46 103 102 103 57 0 103-46 103-103l-103 0z m26 77l102 0c0-57-46-103-102-103z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-webpage" viewBox="0 0 512 512">
+      <path d="m0 0l0 512 512 0 0-512z m51 51l307 0 0 51-307 0z m410 410l-410 0 0-307 410 0z m0-359l-51 0 0-51 51 0z m-179 103l-180 0 0 205 180 0z m-52 153l-76 0 0-102 76 0z m180-153l-77 0 0 51 77 0z m0 77l-77 0 0 51 77 0z m0 76l-77 0 0 52 77 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-money" viewBox="0 0 512 512">
+      <path d="m486 77l-460 0c-15 0-26 11-26 25l0 308c0 14 11 25 26 25l460 0c15 0 26-11 26-25l0-308c0-14-11-25-26-25z m-435 307l0-92 92 92z m410 0l-246 0-164-164 0-92 246 0 164 164z m0-164l-92-92 92 0z m-307 36c0 57 45 102 102 102 57 0 102-45 102-102 0-57-45-102-102-102-57 0-102 45-102 102z m153 0c0 28-23 51-51 51-28 0-51-23-51-51 0-28 23-51 51-51 28 0 51 23 51 51z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-money-dark" viewBox="0 0 512 512">
+      <path d="m0 77l0 358 512 0 0-358z m461 307l-282 0-128-128 0-128 282 0 128 128z m-205-205c-42 0-77 35-77 77 0 42 35 77 77 77 42 0 77-35 77-77 0-42-35-77-77-77z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-calendar" viewBox="0 0 512 512">
+      <path d="m384 358l-51 0 0 52 51 0z m26-307l0-51-52 0 0 51-204 0 0-51-52 0 0 51-102 0 0 461 512 0 0-461z m51 410l-410 0 0-256 410 0z m0-307l-410 0 0-52 410 0z m-77 102l-51 0 0 51 51 0z m-102 0l-52 0 0 51 52 0z m-103 102l-51 0 0 52 51 0z m0-102l-51 0 0 51 51 0z m103 102l-52 0 0 52 52 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-calendar-dark" viewBox="0 0 512 512">
+      <path d="m410 51l0-51-52 0 0 51-204 0 0-51-52 0 0 51-102 0 0 77 512 0 0-77z m-410 461l512 0 0-333-512 0z m333-256l51 0 0 51-51 0z m0 102l51 0 0 52-51 0z m-103-102l52 0 0 51-52 0z m0 102l52 0 0 52-52 0z m-102-102l51 0 0 51-51 0z m0 102l51 0 0 52-51 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-checkbox" viewBox="0 0 512 512">
+      <path d="m142 205l142 136 200-252-49-34-156 199-94-89z m313 79l0 171-398 0 0-398 171 0 0-57-228 0 0 512 512 0 0-228z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-minus" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m0 461c-113 0-205-92-205-205 0-113 92-205 205-205 113 0 205 92 205 205 0 113-92 205-205 205z m-102-179l204 0 0-52-204 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-minus-dark" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m102 282l-204 0 0-52 204 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-comments" viewBox="0 0 512 512">
+      <path d="m154 230l51 0 0-51-51 0z m76 0l52 0 0-51-52 0z m77 0l51 0 0-51-51 0z m128-230l-358 0c-43 0-77 34-77 77l0 256c0 42 34 77 77 77l0 102 219-102 139 0c43 0 77-35 77-77l0-256c0-43-34-77-77-77z m26 333c0 14-12 25-26 25l-151 0-156 73 0-73-51 0c-14 0-26-11-26-25l0-256c0-14 12-26 26-26l358 0c14 0 26 12 26 26z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-close" viewBox="0 0 512 512">
+      <path d="m512 56l-56-56-200 200-200-200-56 56 200 200-200 200 56 56 200-200 200 200 56-56-200-200z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-comments-dark" viewBox="0 0 512 512">
+      <path d="m435 0l-358 0c-43 0-77 34-77 77l0 256c0 42 34 77 77 77l0 102 219-102 139 0c43 0 77-35 77-77l0-256c0-43-34-77-77-77z m-230 230l-51 0 0-51 51 0z m77 0l-52 0 0-51 52 0z m76 0l-51 0 0-51 51 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-credits" viewBox="0 0 512 512">
+      <path d="m358 166c-48 0-153-19-153 77l0 154c0 57 105 77 153 77 49 0 154-20 154-77l0-154c0-57-105-77-154-77z m0 52c36-1 70 7 100 25-30 18-64 27-100 26-35 1-69-8-100-26 31-18 65-26 100-25z m103 176c-31 20-66 30-103 28-36 2-72-8-102-28l0-17c33 13 67 19 102 20 35-1 70-7 103-20z m0-76c-30 20-66 29-103 28-36 1-72-8-102-29l0-17c33 13 67 20 102 20 35 0 70-7 103-20z m-324-177l-9-2-10 0c-11-2-21-5-31-8l-10-4-7 0-5-2-4-2-3-2-4-6c30-18 64-26 100-25 35-1 69 7 100 25l53 0c0-57-105-77-153-77-49 0-154 20-154 77l0 231c0 57 105 76 154 76 8 0 17 0 25-1l0-51c-8 1-17 1-25 1-37 2-72-8-103-28l0-17c33 12 68 19 103 20 8 0 17-1 25-2l0-51c-8 1-17 1-25 1-37 2-73-8-103-28l0-17c33 13 68 19 103 20 8 0 17-1 25-2l0-51c-8 1-17 2-25 2-37 1-73-8-103-29l0-17c33 13 68 20 103 20 8 0 17-1 25-2l0-51c-8 1-17 2-25 2-6 0-12 0-17 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-credits-dark" viewBox="0 0 512 512">
+      <path d="m425 245c-26-15-54-21-84-21-30 0-57 6-83 21 26 15 53 22 83 22 30 0 58-7 84-22z m-169 111l0 15c26 17 55 26 85 24 30 2 60-7 86-24l0-15c-28 11-56 17-86 17-30 0-57-6-85-17z m0-64l0 15c26 17 55 26 85 24 30 2 60-7 86-24l0-15c-28 11-56 17-86 17-30 0-57-6-85-17z m85-153c0-79-102-107-170-107-69 0-171 28-171 107l0 192c0 79 102 106 171 106 8 0 17 0 25-2l2 0c37 32 99 45 143 45 69 0 171-28 171-107l0-128c0-79-102-106-171-106z m-170-22c-30 0-58 7-84 22l3 2 2 2 8 4 7 0 8 2c9 2 17 5 26 7l15 0c4 2 10 4 15 4 6 0 15 0 21-2l0 43c-6 2-15 2-21 2-30 0-58-7-86-17l0 15c26 17 56 25 86 23 6 0 15 0 21-2l0 43c-6 2-15 2-21 2-30 0-58-7-86-17l0 15c26 17 56 25 86 23 6 0 15 0 21-2l0 43c-6 2-15 2-21 2-30 0-58-7-86-17l0 15c26 17 56 25 86 23 6 0 15 0 21-2l0 43c-6 2-15 2-21 2-41 0-128-17-128-64l0-192c0-47 87-64 128-64 40 0 128 17 128 64l-45 0c-26-15-53-22-83-22z m298 256c0 47-87 64-128 64-40 0-128-17-128-64l0-128c0-47 88-64 128-64 41 0 128 17 128 64z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-go-back-arrow" viewBox="0 0 512 512">
+      <path d="m388 201l-269 0 93-93-43-44-169 168 169 168 43-43-93-94 269 0c34 0 62 28 62 62 0 34-28 62-62 62l-32 0 0 61 32 0c45 3 89-20 112-59 24-40 24-89 0-128-23-39-67-62-112-59z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-home" viewBox="0 0 512 512">
+      <path d="m59 273l0 227 394 0 0-227-197-139z m222 178l-49 0 0-97 49 0z m123 0l-73 0 0-146-149 0 0 146-73 0 0-153 148-104 148 104z m-148-439l-123 87 0-87-49 0 0 122-84 59 29 39 227-161 227 161 29-39z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-home-dark" viewBox="0 0 512 512">
+      <path d="m256 12l-123 87 0-87-49 0 0 122-84 59 29 39 227-161 227 161 29-39z m-197 261l0 227 123 0 0-195 148 0 0 195 123 0 0-227-197-139z m172 227l49 0 0-146-49 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-horiz-dots" viewBox="0 0 512 512">
+      <path d="m51 205c-28 0-51 23-51 51 0 28 23 51 51 51 28 0 51-23 51-51 0-28-23-51-51-51z m205 0c-28 0-51 23-51 51 0 28 23 51 51 51 28 0 51-23 51-51 0-28-23-51-51-51z m205 0c-28 0-51 23-51 51 0 28 23 51 51 51 28 0 51-23 51-51 0-28-23-51-51-51z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-edit" viewBox="0 0 512 512">
+      <path d="m51 51l103 0 0-51-154 0 0 154 51 0z m461 51c0-28-10-53-31-71-41-39-105-39-146 0l-274 274c-2 2-2 5-5 5l0 2-56 167c-5 13 0 28 15 33 5 3 13 3 18 0l164-54 3 0c2-2 5-5 7-7l274-277c21-18 31-43 31-72z m-445 343l25-74 51 51z m122-51l-35-36-39-35 215-215 72 71z m256-256l-5 5-71-71 5-5c20-21 51-21 71 0 21 17 21 51 0 71z m16 323l-103 0 0 51 154 0 0-154-51 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-alert" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m0 461c-113 0-205-92-205-205 0-113 92-205 205-205 113 0 205 92 205 205 0 113-92 205-205 205z m-26-103l52 0 0-51-52 0z m0-102l52 0 0-102-52 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-alert-dark" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m26 358l-52 0 0-51 52 0z m0-102l-52 0 0-102 52 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-plus" viewBox="0 0 512 512">
+      <path d="m282 154l-52 0 0 76-76 0 0 52 76 0 0 76 52 0 0-76 76 0 0-52-76 0z m-26-154c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m0 461c-113 0-205-92-205-205 0-113 92-205 205-205 113 0 205 92 205 205 0 113-92 205-205 205z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-plus-dark" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m102 282l-76 0 0 76-52 0 0-76-76 0 0-52 76 0 0-76 52 0 0 76 76 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-facebook" viewBox="0 0 512 512">
+      <path d="m483 0l-454 0c-14 0-27 14-27 27l0 454c0 17 13 31 27 31l242 0 0-198-64 0 0-78 64 0 0-55c-6-51 31-96 82-102 7 0 11 0 17 0 21 0 41 0 58 3l0 68-41 0c-30 0-37 14-37 38l0 51 75 0-10 78-65 0 0 195 130 0c17 0 27-14 27-27l0-458c3-13-10-27-24-27z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-triangle-info" viewBox="0 0 512 512">
+      <path d="m230 256l52 0 0-51-52 0z m0 154l52 0 0-103-52 0z m274-13l-179-353c-18-39-66-54-105-36-15 7-28 20-36 36l-176 355c-21 39-5 87 36 105 10 5 23 8 35 8l356 0c44 0 80-36 80-79-3-11-6-23-11-36z m-48 51c-5 8-13 13-23 13l-354 0c-15 0-25-10-25-26 0-5 0-10 2-13l177-355c8-13 23-18 38-11 5 3 8 5 11 11l176 355c3 8 3 18-2 26z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-triangle-info-dark" viewBox="0 0 512 512">
+      <path d="m504 398l-178-354c-13-27-40-44-70-44-30 0-57 17-70 44l-178 354c-12 25-11 54 4 77 14 23 39 37 67 37l354 0c27 0 53-14 67-37 14-23 16-52 4-77z m-222 12l-52 0 0-103 52 0z m0-154l-52 0 0-51 52 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-close" viewBox="0 0 512 512">
+      <path d="m319 157l-63 63-63-63-39 38 63 63-63 63 39 37 63-62 63 62 39-37-63-63 63-63z m-63-157c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m0 461c-113 0-205-92-205-205 0-113 92-205 205-205 113 0 205 92 205 205 0 113-92 205-205 205z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-close-dark" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m102 321l-39 37-63-62-63 62-39-37 63-63-63-63 39-38 63 63 63-63 39 38-63 63z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-check-banner" viewBox="0 0 512 512">
+      <path d="m384 438l-113-77c-7-5-20-5-28 0l-112 77 0-387 307 0c0-28-23-51-51-51l-259 0c-28 0-51 23-51 51l0 435c0 16 13 26 25 26 6 0 11-3 13-5l141-92 138 92c13 8 28 5 36-8 3-2 5-7 5-13l0-230-51 0z m-182-282l-46 46 100 98 151-152-46-46-105 108z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-check-banner-dark" viewBox="0 0 512 512">
+      <path d="m384 0l-256 0c-28 0-51 23-51 51l0 435c0 16 13 26 25 26 6 0 11-3 13-5l141-92 138 92c13 8 28 5 36-8 3-2 5-7 5-13l0-435c0-28-23-51-51-51z m-154 300l-99-98 46-46 53 54 105-105 46 46z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-info" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m0 461c-113 0-205-92-205-205 0-113 92-205 205-205 113 0 205 92 205 205 0 113-92 205-205 205z m-26-256l52 0 0-51-52 0z m0 153l52 0 0-102-52 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-info-dark" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m26 358l-52 0 0-102 52 0z m0-153l-52 0 0-51 52 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-instagram" viewBox="0 0 512 512">
+      <path d="m391 89c-17 0-31 13-31 30 0 18 14 31 31 31 17 0 31-13 31-31 0-17-14-30-31-30z m116 61c0-20-4-41-14-61-7-17-17-34-30-45-14-13-28-24-45-30-17-7-37-14-58-14-27 0-34 0-106 0-71 0-75 0-102 0-21 0-44 7-62 14-17 6-34 17-47 27-11 14-21 31-28 48-6 20-13 41-13 61 0 27 0 38 0 106 0 68 0 79 0 106 0 20 3 41 10 61 14 34 41 62 75 75 21 7 41 14 65 14 27 0 34 0 106 0 71 0 78 0 106 0 20 0 40-3 61-14 34-13 61-41 75-75 7-20 10-41 14-61 0-27 0-38 0-106 0-68-4-79-7-106z m-44 208c0 17-4 31-11 48-3 10-10 21-20 31-7 7-17 14-31 20-14 7-31 11-48 11-27 0-34 0-102 0-68 0-75 0-103 0-17 0-30-4-47-11-11-3-21-10-31-20-7-7-14-17-21-31-6-13-10-31-10-48 0-27 0-34 0-102 0-68 0-75 0-102 0-17 4-31 10-48 14-10 21-21 28-27 7-11 17-18 31-21 13-7 30-10 44-10 27 0 34 0 102 0 69 0 75 0 103 0 17 0 30 3 47 10 11 3 21 10 31 21 7 6 14 17 21 30 7 14 10 31 10 48 0 27 0 34 0 102 0 69-3 72-3 99z m-209-232c-71 0-133 58-133 130 0 72 58 133 130 133 72 0 133-58 133-130 3-75-55-133-130-133z m0 215c-47 0-85-37-85-85 0-48 38-85 85-85 48 0 86 37 86 85 0 48-38 85-86 85z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-linkedin" viewBox="0 0 512 512">
+      <path d="m60 21c-30-4-56 19-60 52 0 0 0 4 0 4 0 30 23 53 56 57 0 0 4 0 4 0 30 0 57-23 60-53 4-30-18-57-48-60-4 0-8 0-12 0z m-49 470l102 0 0-320-102 0z m377-323c-42-4-83 18-102 52l0-49-113 0c0 27 0 320 0 320l113 0 0-173c0-7 0-19 4-26 7-23 30-38 53-38 37 0 56 30 56 72l0 162 113 0 0-174c0-98-53-146-124-146z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-message" viewBox="0 0 512 512">
+      <path d="m0 77l0 358 512 0 0-358z m419 51l-163 145-163-145z m-368 31l109 97-109 97z m42 225l105-94 41 36c10 9 24 9 34 0l41-36 105 94z m368-31l-109-97 109-97z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-message-dark" viewBox="0 0 512 512">
+      <path d="m477 77l-442 0 221 188z m-119 169l154 153 0-285z m-102 87l-63-54-157 156 440 0-157-156z m-256-219l0 285 154-154z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-hamburger" viewBox="0 0 512 512">
+      <path d="m0 77l0 51 512 0 0-51z m0 205l512 0 0-52-512 0z m0 153l512 0 0-51-512 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-obscure" viewBox="0 0 512 512">
+      <path d="m64 335l36-35c-16-13-31-29-44-44 46-59 116-97 190-102l48-49c-12-3-25-3-38-3-95 0-184 49-251 139-5 10-5 23 0 30 18 23 39 46 59 64z m338-189l110-110-36-36-476 476 36 36 120-120c33 10 67 18 100 18 95 0 184-49 248-139 8-10 8-20 0-30-28-39-61-69-102-95z m-205 205l5-5c10 5 21 10 34 12-13-2-26-5-39-7z m44-44l59-59c0 3 2 8 2 11 0 28-23 51-51 51-3 0-5-3-10-3z m15 51l-3 0c57 0 100-46 100-102 0-18-5-33-13-49l24-23c33 18 64 44 87 72-47 61-118 100-195 102z m-10-204c-51 2-92 43-95 94z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-obscure-dark" viewBox="0 0 512 512">
+      <path d="m413 158l97-97-35-35-426 425 35 35 93-92c25 7 50 10 75 10 93 0 181-48 246-135 7-10 7-23 0-31-25-30-53-57-85-80z m-161 198c-10 0-22-2-32-5l47-47c13-5 23-15 28-28l47-50c3 10 5 20 5 30 3 53-40 98-95 100z m-97-85c-3-5-3-10-3-15 0-55 43-100 98-100 5 0 10 0 17 2l45-45c-20-5-40-7-60-7-92 0-180 47-245 135-5 7-8 20 0 30 20 28 45 53 72 75z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-reveal" viewBox="0 0 512 512">
+      <path d="m506 241c-67-90-157-139-251-139-95 0-182 49-249 139-7 10-7 20 0 30 67 90 154 139 249 139 94 0 184-49 248-139 8-10 8-20 3-30z m-446 15c44-59 113-97 187-102-56 0-102 46-102 102 0 56 46 102 102 102-74-5-143-43-187-102z m141 0c0-28 23-51 51-51 28 0 51 23 51 51 0 28-23 51-51 51-28 0-51-23-51-51z m54 102l-3 0c56 0 103-46 103-102 0-56-47-102-103-102l3 0c77 2 151 41 197 102-46 61-118 100-197 102z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-reveal-dark" viewBox="0 0 512 512">
+      <path d="m257 205c-28 0-51 23-51 51 0 28 23 51 51 51 28 0 51-23 51-51 0-28-23-51-51-51z m251 36c-69-90-156-139-251-139-94 0-184 49-251 139-7 10-7 20 0 30 67 90 154 139 251 139 98 0 185-49 251-139 5-10 5-23 0-30z m-251 117c-56 0-102-46-102-102-3-56 41-102 95-105 53-3 102 41 105 95 0 2 0 7 0 10 2 56-41 100-98 102z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-pause" viewBox="0 0 512 512">
+      <path d="m128 512l85 0 0-512-85 0z m171-512l0 512 85 0 0-512z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-pinterest" viewBox="0 0 512 512">
+      <path d="m254 0c-140 0-252 116-252 259 0 99 61 192 153 233 0-21 0-41 4-59l34-139c-7-14-10-28-10-41 0-38 20-65 47-65 21 0 35 13 35 34 0 0 0 3 0 3-4 31-11 62-21 89-7 21 7 44 27 48 4 0 7 0 11 0 47 0 82-62 82-137 3-51-41-95-93-99-3 0-10 0-13 0-69-3-123 51-127 116 0 4 0 4 0 7 0 17 7 38 17 51 7 7 7 11 7 17l-7 21c0 3-6 7-10 7 0 0 0 0-3 0-34-21-58-58-51-99 0-72 61-161 181-161 85-3 157 58 160 144 0 0 0 3 0 3 0 99-55 174-137 174-23 0-47-10-61-34 0 0-14 58-17 72-7 20-14 37-27 54 24 11 47 14 71 14 140 0 256-116 256-256 0-140-112-256-256-256z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-play" viewBox="0 0 512 512">
+      <path d="m472 190l-362-183c-37-18-81-3-103 30-3 11-7 25-7 36l0 366c0 25 15 51 37 62 22 15 51 15 73 4l362-183c36-18 51-62 36-99-7-15-18-26-36-33z m-399 249l0-366 366 183z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-play-dark" viewBox="0 0 512 512">
+      <path d="m472 190l-362-183c-37-18-81-3-103 30-3 11-7 25-7 36l0 366c0 25 15 51 37 62 22 15 51 15 73 4l362-183c36-18 51-62 36-99-7-15-18-26-36-33z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-print" viewBox="0 0 512 512">
+      <path d="m435 128l-25 0 0-128-308 0 0 128-25 0c-43 0-77 34-77 77l0 128c0 42 34 77 77 77l25 0 0 102 308 0 0-102 25 0c43 0 77-35 77-77l0-128c0-43-34-77-77-77z m-281-77l204 0 0 77-204 0z m204 410l-204 0 0-77 204 0z m103-128c0 14-12 25-26 25l-25 0 0-25-308 0 0 25-25 0c-14 0-26-11-26-25l0-128c0-14 12-26 26-26l358 0c14 0 26 12 26 26z m-103-51l52 0 0-52-52 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-print-dark" viewBox="0 0 512 512">
+      <path d="m435 154l-358 0c-43 0-77 34-77 76l0 103c0 42 34 77 77 77l25 0 0-77 308 0 0 77 25 0c43 0 77-35 77-77l0-103c0-42-34-76-77-76z m-25 128l-52 0 0-52 52 0z m0-282l-308 0 0 102 308 0z m-256 512l204 0 0-128-204 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-question" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m0 461c-113 0-205-92-205-205 0-113 92-205 205-205 113 0 205 92 205 205 0 113-92 205-205 205z m0-333c-42 0-77 34-77 77l51 0c0-14 12-26 26-26 14 0 26 12 26 26 0 14-12 25-26 25l-26 0 0 77 52 0 0-30c35-12 56-48 50-85-7-37-39-64-76-64z m-26 256l52 0 0-51-52 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-question-dark" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m26 384l-52 0 0-51 52 0z m0-107l0 30-52 0 0-77 26 0c14 0 26-11 26-25 0-14-12-26-26-26-14 0-26 12-26 26l-51 0c0-39 30-72 68-76 39-5 75 21 84 59 9 38-13 76-49 89z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-rss" viewBox="0 0 512 512">
+      <path d="m0 171l0 97c135 0 244 109 244 244l97 0c0-189-152-341-341-341z m73 195c-40 0-73 32-73 73 0 40 33 73 73 73 40 0 73-33 73-73 0-41-33-73-73-73z m-73-366l0 98c229 0 414 185 414 414l98 0c0-283-229-512-512-512z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-search" viewBox="0 0 512 512">
+      <path d="m364 324c68-91 48-216-40-284-88-68-216-49-284 40-68 88-49 216 40 284 71 54 170 54 244 0l148 148 40-40z m-51-31l-20 20c-26 23-57 34-91 34-80 0-145-65-142-145 0-80 65-145 145-142 79 0 142 65 142 145 0 31-11 62-34 88z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-settings" viewBox="0 0 512 512">
+      <path d="m512 300l0-88-61-20c-3-10-8-18-13-28l28-59-62-61-58 28c-8-5-18-8-29-13l-17-59-88 0-20 61c-10 3-18 8-28 13l-56-30-64 64 28 58c-3 8-8 16-11 26l-61 20 0 88 61 20c3 10 8 18 13 28l-30 59 61 61 59-28c8 5 18 8 28 13l20 59 88 0 20-61c10-3 18-8 28-13l59 28 61-62-28-58c5-8 8-18 13-29z m-105-21l-3 13c-2 15-10 28-17 41l-8 13 25 48-10 10-48-25-13 8c-13 7-26 12-41 17l-10 3-18 54-16 0-18-54-12-3c-16-2-29-10-41-17l-13-8-49 25-10-10 26-48-8-13c-8-13-13-26-18-41l0-10-54-18 0-16 54-18 3-12c2-13 10-29 17-41l8-13-25-49 10-10 48 26 13-8c13-8 26-13 41-18l10 0 18-54 16 0 18 54 12 3c16 2 29 10 41 17l13 8 49-25 10 10-26 48 8 13c8 13 13 26 18 41l0 10 54 18 0 16z m-151-100c-44 0-77 33-77 77 0 44 33 77 77 77 44 0 77-33 77-77 0-44-33-77-77-77z m0 103c-15 0-26-11-26-26 0-15 11-26 26-26 15 0 26 11 26 26 0 15-11 26-26 26z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-settings-dark" viewBox="0 0 512 512">
+      <path d="m256 205c-28 0-51 23-51 51 0 28 23 51 51 51 28 0 51-23 51-51 0-28-23-51-51-51z m256 95l0-88-61-20c-3-10-8-18-13-28l28-59-62-61-58 28c-8-5-18-8-29-13l-17-59-88 0-20 61c-10 3-18 8-28 13l-56-30-64 64 28 58c-3 8-8 16-11 26l-61 20 0 88 61 20c3 10 8 18 13 28l-30 59 61 61 59-28c8 5 18 8 28 13l20 59 88 0 20-61c10-3 18-8 28-13l59 28 61-62-28-58c5-8 8-18 13-29z m-256 58c-56 0-102-46-102-102 0-56 46-102 102-102 56 0 102 46 102 102 0 56-46 102-102 102z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-snapchat" viewBox="0 0 512 512">
+      <path d="m498 373c-44-10-81-44-98-85-3-7-3-10-3-17 3-10 17-13 27-17l7 0c6-3 13-6 20-13 3-4 7-10 7-14 0-10-7-17-17-20-4 0-7-4-10-4-4 0-7 0-11 4-6 3-13 7-20 7-3 0-3 0-7 0l0-7c4-34 4-68-7-102-6-17-16-30-30-44-14-13-24-24-37-30-21-11-38-14-58-14l-10 0c-20 0-41 3-58 14-13 3-27 13-37 23-14 14-24 27-30 44-11 34-11 68-7 102l0 10c-4 0-7 0-7 0-7 0-17-3-24-7-3 0-7-3-7-3-6 0-10 0-16 3-7 7-11 14-11 17 0 7 0 14 7 17 7 7 14 14 20 17l7 0c10 4 24 7 27 17 4 7 0 14-3 17-7 14-14 27-24 41-10 10-20 20-30 27-14 10-27 14-44 17-7 0-10 7-10 13 0 0 0 4 0 4 3 7 10 13 16 13 17 7 34 11 51 14 0 3 4 7 4 10 0 4 0 7 3 14 0 6 7 10 14 10 3 0 6 0 10 0 10-4 17-4 27-4 7 0 13 0 20 0 14 4 24 11 34 17 20 17 44 28 68 28l7 0c27 0 51-11 67-28 11-10 21-13 34-17 7 0 14 0 21 0 10 0 17 0 27 4 3 0 7 0 10 0 7 0 10-4 14-10 0-4 3-7 3-14 0-3 3-7 3-10 17-3 34-7 48-14 7-3 13-6 17-13 0 0 0-4 0-4 3-6 0-10-4-13z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-speech-bubble" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 92-256 205 2 58 30 112 77 146l0 161 162-102 17 0c141 0 256-92 256-205 0-113-115-205-256-205z m0 358c-7 0-30-1-30-1l-98 62 0-94-11-8c-39-24-64-66-66-112 0-85 92-154 205-154 113 0 205 69 205 154 0 85-92 153-205 153z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-speech-bubble-dark" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 92-256 205 2 58 30 112 77 146l0 161 162-102 17 0c141 0 256-92 256-205 0-113-115-205-256-205z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-subscription" viewBox="0 0 512 512">
+      <path d="m256 448c-85 0-159-55-184-136l56-56-128 0 0 128 39-39c39 96 138 155 241 145 104-11 188-89 207-191l-43 0c-20 87-98 150-188 149z m217-281c-40-96-138-155-241-144-103 11-187 88-207 190l43 0c20-84 94-146 180-149 87-3 165 53 191 136l-55 56 128 0 0-128z m-174 89c0-24-19-43-43-43-24 0-43 19-43 43 0 24 19 43 43 43 24 0 43-19 43-43z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-subscription-alert" viewBox="0 0 512 512">
+      <path d="m256 448c-85 0-159-55-184-136l56-56-128 0 0 128 39-39c39 96 138 155 241 145 104-11 188-89 207-191l-43 0c-20 87-98 150-188 149z m217-281c-40-96-138-155-241-144-103 11-187 88-207 190l43 0c20-84 94-146 180-149 87-3 165 53 191 136l-55 56 128 0 0-128z m-196 4l-42 0 0 85 42 0z m-42 170l42 0 0-42-42 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-subscription-paused" viewBox="0 0 512 512">
+      <path d="m256 448c-85 0-159-55-184-136l56-56-128 0 0 128 39-39c39 96 138 155 241 145 104-11 188-89 207-191l-43 0c-20 87-98 150-188 149z m217-281c-40-96-138-155-241-144-103 11-187 88-207 190l43 0c20-84 94-146 180-149 87-3 165 53 191 136l-55 56 128 0 0-128z m-281 25l0 128 43 0 0-128z m85 0l0 128 43 0 0-128z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-twitter" viewBox="0 0 512 512">
+      <path d="m512 92c-21 7-42 14-62 17 24-14 41-35 48-62-21 14-41 20-66 27-20-20-48-34-76-34-58 3-103 52-103 110 0 7 0 18 3 25-90-4-170-45-221-114-11 17-14 34-14 55 0 38 17 69 48 90-17 0-34-4-48-14 0 52 34 97 83 107-14 7-31 7-49 4 14 45 56 72 101 76-45 34-101 52-156 45 48 31 104 48 163 48 193 0 297-166 297-311 0-4 0-11 0-14 21-17 38-35 52-55z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-crown" viewBox="0 0 512 512">
+      <path d="m500 184c-7-5-17-7-25-2l-120 54-77-123c-8-11-23-13-36-5-3 0-5 2-8 7l-77 123-120-56c-8-3-18-3-25 2-8 8-11 18-8 26l51 205c3 13 13 20 23 20l356 0c13 0 23-7 26-20l51-205c2-8-3-18-11-26z m-87 200l-314 0-34-133 92 41c13 5 26 0 31-10l67-105 66 105c8 10 21 15 31 10l92-41z m-309 128l304 0 0-51-304 0z m189-476l-38-36-36 36 36 36z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-crown-dark" viewBox="0 0 512 512">
+      <path d="m500 184c-7-5-17-7-25-2l-120 54-77-123c-8-11-23-13-36-5-3 0-5 2-8 7l-77 123-120-56c-8-3-18-3-25 2-8 8-11 18-8 26l51 205c3 13 13 20 23 20l356 0c13 0 23-7 26-20l51-205c2-8-3-18-11-26z m-396 328l304 0 0-51-304 0z m189-476l-38-36-36 36 36 36z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-camera" viewBox="0 0 512 512">
+      <path d="m400 128l-51-102-186 0-51 102-112 0 0 358 512 0 0-358z m-205-51l122 0 26 51-174 0z m266 358l-410 0 0-256 410 0z m-205-25c57 0 102-46 102-103 0-56-45-102-102-102-57 0-102 46-102 102 0 57 45 103 102 103z m0-154c28 0 51 23 51 51 0 28-23 51-51 51-28 0-51-23-51-51 0-28 23-51 51-51z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-camera-dark" viewBox="0 0 512 512">
+      <path d="m256 256c-28 0-51 23-51 51 0 28 23 51 51 51 28 0 51-23 51-51 0-28-23-51-51-51z m144-128l-51-102-186 0-51 102-112 0 0 358 512 0 0-358z m-144 282c-57 0-102-46-102-103 0-56 45-102 102-102 57 0 102 46 102 102 0 57-45 103-102 103z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-user" viewBox="0 0 512 512">
+      <path d="m379 287c20-32 31-70 31-108 0-99-69-179-154-179-85 0-154 80-154 179 0 38 11 76 32 108-25 4-48 13-69 27-29 21-65 62-65 144l0 28c0 15 11 26 26 26l460 0c15 0 26-11 26-26l0-28c0-94-48-154-133-171z m-123-236c57 0 102 58 102 128 0 71-45 128-102 128-57 0-102-57-102-128 0-70 45-128 102-128z m205 410l-410 0 0-3c-4-40 12-78 43-103 26-15 55-23 85-22 47 33 110 33 156 0 126 4 126 95 126 125z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-user-dark" viewBox="0 0 512 512">
+      <path d="m466 330c-22-20-49-35-79-41-30 43-79 68-131 69-52-1-101-27-131-69-80 18-125 78-125 169l0 28c0 15 11 26 26 26l460 0c15 0 26-11 26-26l0-28c3-47-14-93-46-128z m-210-23c68 0 124-69 124-153 0-85-56-154-124-154-68 0-124 69-124 154 0 84 56 153 124 153z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-video-frame" viewBox="0 0 512 512">
+      <path d="m441 0l0 57-370 0 0-57-57 0 0 512 57 0 0-57 370 0 0 57 57 0 0-512z m0 398l-370 0 0-284 370 0z m-285-227l-56 0 0 57 56 0z m0 113l-56 0 0 57 56 0z m256-113l-56 0 0 57 56 0z m0 113l-56 0 0 57 56 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-guage" viewBox="0 0 512 512">
+      <path d="m465 186l40-40-37-36-37 37-36 36-106 106c-10-5-22-7-33-7-42 0-77 34-77 76 0 43 35 77 77 77 42 0 77-34 77-77 0-11-3-22-8-33l103-102c21 33 33 71 33 110l51 0c0-53-16-104-47-147z m-209 198c-14 0-26-11-26-26 0-14 12-25 26-25 14 0 26 11 26 25 0 15-12 26-26 26z m97-230l37-38c-78-48-177-50-258-6-81 45-131 130-132 223l51 0c1-72 39-139 101-175 61-37 138-39 201-4z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-resolution" viewBox="0 0 512 512">
+      <path d="m0 26l0 102 51 0 0-51 410 0 0 358-51 0 0 51 102 0 0-460z m0 230l51 0 0-51 282 0 0 230-51 0 0 51 102 0 0-332-384 0z m0 230l256 0 0-204-256 0z m51-153l154 0 0 102-154 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-resolution-dark" viewBox="0 0 512 512">
+      <path d="m0 282l256 0 0 204 51 0 0-256-307 0z m0 204l205 0 0-153-205 0z m0-307l358 0 0 307 52 0 0-358-410 0z m0-153l0 51 461 0 0 409 51 0 0-460z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-youtube" viewBox="0 0 512 512">
+      <path d="m506 151c-3-17-8-37-20-51-14-15-31-23-51-23-71-6-179-6-179-6 0 0-108 0-179 6-20 0-37 8-51 23-12 14-17 34-20 51-3 28-6 57-6 85l0 40c0 28 3 57 6 85 3 17 8 37 20 51 14 15 37 23 56 23 40 6 174 6 174 6 0 0 108 0 179-6 20 0 37-8 51-23 12-14 17-34 20-51 3-28 6-57 6-85l0-40c0-28-3-57-6-85z m-304 173l0-148 139 74z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-download" viewBox="0 0 512 512">
+      <path d="m0 495l0-158 64 0 0 94 384 0 0-94 64 0 0 158z m95-286l94 0 0-192 128 0 0 192 95 0-156 158z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-dribbble" viewBox="0 0 512 512">
+      <path d="m503 203c-3-18-7-32-14-47-53-128-199-192-331-138-28 14-57 32-82 57-10 10-21 25-32 39-7 14-17 28-21 42-7 15-14 32-18 47-7 35-7 67 0 103 7 32 22 64 39 92 18 29 43 50 68 68 14 10 28 18 43 25 64 28 135 28 199 0 14-7 28-15 42-25 29-18 50-43 68-68 11-14 18-28 25-42 7-15 11-32 14-50 7-32 7-68 0-103z m-249-167c54 0 103 17 142 53-28 39-67 67-110 82-25-43-53-86-82-128 18-4 32-7 50-7z m-50 7z m-42 14c28 39 57 82 82 128-64 18-132 25-200 25 15-68 57-121 118-153z m-68 345c-35-39-57-93-57-146 0-4 0-4 0-7 75 0 153-11 224-32 7 11 11 25 18 35l-7 4c-75 25-139 75-178 146z m160 71c-50 0-96-14-131-46 35-64 99-114 170-135 22 53 36 110 47 167-29 10-57 14-86 14z m121-36c-11-53-25-106-43-156 47-7 93-4 136 11-8 56-43 110-93 145z m-53-192l-4-10c-7-11-10-22-14-32 46-18 89-47 121-86 32 39 50 86 50 135-50-10-103-10-153-7z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-edit-dark" viewBox="0 0 512 512">
+      <path d="m69 69l136 0 0-69-205 0 0 205 69 0z m374 374l-133 0 0 69 202 0 0-205-69 0z m-392-93l266-266 109 109-266 266z m446-227c20-21 20-54 0-74l-36-34c-21-20-54-20-74 0l-44 44 110 110z m-497 381c0 5 3 11 10 8l131-31-110-110z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-file" viewBox="0 0 512 512">
+      <path d="m346 120c0-23 2-120-134-120-130 0-161 0-161 0l0 512 410 0c0 0 0-212 0-269 0-97-87-125-115-123z m64 341l-308 0 0-410c0 0 57 0 105 0 105 0 90 74 82 118 69-8 121 10 121 92 0 62 0 200 0 200z m-256-103l204 0 0 52-204 0z m0-102l128 0 0 51-128 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-share" viewBox="0 0 512 512">
+      <path d="m456 411l-400 0 0-312 116 0 0-57-172 0 0 428 512 0 0-172-56 0z m-103-213l0 77 159-118-159-115 0 72c-192 0-205 202-205 202 85-133 205-118 205-118z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-file-check" viewBox="0 0 512 512">
+      <path d="m346 120c0-23 2-120-134-120-130 0-161 0-161 0l0 512 410 0c0 0 0-212 0-269 0-97-87-125-115-123z m64 341l-308 0 0-410c0 0 57 0 105 0 105 0 90 74 82 118 69-8 121 10 121 92 0 62 0 200 0 200z m-182-121l-54-51-36 36 92 87 131-164-41-28z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-file-check-dark" viewBox="0 0 512 512">
+      <path d="m333 131c0-23-10-131-146-131-131 0-136 0-136 0l0 512 410 0c0 0 0-187 0-243 0-97-100-141-128-138z m-103 281l-94-89 36-36 51 53 94-122 41 28z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-file-dark" viewBox="0 0 512 512">
+      <path d="m333 131c0-23-10-131-146-131-131 0-136 0-136 0l0 512 410 0c0 0 0-187 0-243 0-97-100-141-128-138z m-179 125l128 0 0 51-128 0z m204 154l-204 0 0-52 204 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-heart-dark" viewBox="0 0 512 512">
+      <path d="m362 34c-42 0-79 17-106 44-27-27-64-43-106-43-83 0-150 67-150 150 0 191 256 293 256 293 0 0 256-103 256-293 0-84-67-151-150-151z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-heart" viewBox="0 0 512 512">
+      <path d="m362 34c-42 0-79 17-106 44-27-27-64-43-106-43-83 0-150 67-150 150 0 191 256 293 256 293 0 0 256-103 256-293 0-84-67-151-150-151z m-106 374c0 0-190-88-190-205 0-57 33-104 95-104 44 0 75 25 95 45 20-20 51-45 95-45 62 0 95 47 95 104 0 117-190 205-190 205z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-google" viewBox="0 0 512 512">
+      <path d="m165 226l0 63 85 0c-7 38-44 67-85 63-51 0-92-42-92-95 0-51 39-94 92-94 22 0 44 7 61 24 12-14 12-17 46-48-29-27-68-41-107-41-87 0-159 70-159 159 0 90 70 160 159 160 131 0 162-114 150-191z m283 2l0-55-38 0 0 55-56 0 0 39 56 0 0 58 38 0 0-58 54 0 0-39z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-checkmark" viewBox="0 0 512 512">
+      <path d="m500 136l-72-72-240 240-104-104-72 72 176 176z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-attribution-link-clipboard" viewBox="0 0 512 512">
+      <path d="m305 141c5-8 5-18 0-26l-8-13 61 0 0 154 52 0 0-205-139 0-18-36c-5-10-12-15-23-15l-51 0c-10 0-18 5-23 15l-18 36-138 0 0 461 102 0 0-51-51 0 0-359 62 0-8 16c-5 10-3 25 10 33 5 3 8 3 13 3l154 0c7 0 18-6 23-13z m-136-39l26-51 20 0 26 51z m36 308c0-29 23-52 51-52l51 0 0-51-51 0c-56 0-102 46-102 103 0 56 46 102 102 102l51 0 0-51-51 0c-28 0-51-23-51-51z m205-103l-52 0 0 51 52 0c28 0 51 23 51 52 0 28-23 51-51 51l-52 0 0 51 52 0c56 0 102-46 102-102 0-57-46-103-102-103z m-128 128l102 0 0-51-102 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-link" viewBox="0 0 512 512">
+      <path d="m504 119l-108-111c-11-11-32-11-42 0l-138 137c-10 11-10 32 0 42l19 19 124-124c5-5 16-5 24 0l47 50c5 5 5 16 0 24l-124 124 19 18c10 11 31 11 42 0l134-134c16-14 16-35 3-45z m-227 187l-121 122c-6 5-16 5-24 0l-48-48c-5-5-5-16 0-24l122-121-19-19c-10-10-31-10-42 0l-134 135c-11 11-11 32 0 42l108 108c10 11 31 11 42 0l135-134c10-11 10-32 0-42z m-113 16l26 26c3 3 8 3 13 0l148-147c3-3 3-8 0-14l-26-26c-3-3-8-3-14 0l-147 148c-3 5-3 10 0 13z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-checkmark-dark" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m-33 361l-95-97 38-39 57 57 130-131 39 38z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-circle-checkmark" viewBox="0 0 512 512">
+      <path d="m256 0c-141 0-256 115-256 256 0 141 115 256 256 256 141 0 256-115 256-256 0-141-115-256-256-256z m0 461c-113 0-205-92-205-205 0-113 92-205 205-205 113 0 205 92 205 205 0 113-92 205-205 205z m138-272l-41-38-130 131-57-57-38 39 95 97z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-tele" viewBox="0 0 512 512">
+      <path d="m275 128l93-93-35-35-90 89-64-63-35 35 63 64-4 3-203 0 0 358 51 0 0 26 51 0 0-26 308 0 0 26 51 0 0-26 51 0 0-358z m186 307l-410 0 0-256 410 0z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-arrow-up" viewBox="0 0 512 512">
+      <path d="m506 342l-54 63-194-181-193 181-59-63 252-235z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-arrow-right" viewBox="0 0 512 512">
+      <path d="m170 506l-63-54 181-194-181-193 63-59 235 252z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-arrow-down" viewBox="0 0 512 512">
+      <path d="m506 170l-54-63-194 181-193-181-59 63 252 235z"></path>
+    </symbol>
+  
+    <symbol id="ez-icon-arrow-left" viewBox="0 0 512 512">
+      <path d="m342 506l63-54-181-194 181-193-63-59-235 252z"></path>
+    </symbol>
+  
+</svg>
+
+
+
+
+
+      <div class="sticky-ad">
+    
+<div
+  id="div-gpt-ad-1739517-3"
+  class="tmsads adunit searchpage-leftside"
+  style=""
+
+  
+></div>
+
+  </div>
+
+  </aside>
+
+  <div id="main" class="wide">
+
+    <div class="search-header">
+      <div class="meta-search">
+  <h1 class="search-term">Triangle Stock Video Footage</h1>
+
+  <div class="results-info">
+    <span class="dash">&nbsp;-</span> 58 royalty free stock videos matching
+    <span>triangle</span>
+  </div>
+</div>
+
+        
+    </div>
+
+
+    <div class="top-sstk">
+        <div class="sstk-results-search-wrapper">
+              
+        </div>
+    </div>
+
+    <ul class="ez-resource-grid ez-resource-grid--small is-hidden videezy-grid " rel="search-results">
+  
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb is-premium-resource is-pro">
+
+
+  
+  <a href="/abstract/22139-fire-triangle-stroke-animation-4k" class="ez-resource-thumb__link sponsored-premium-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTEmcHJlbWl1bT1mYWxzZSZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJnJlc291cmNlX2lkPTIyMTM5JnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTVlOGY4N2UyLWYxNGQtNGU3Yy1iYzUzLWJiOWMyODJlMDBkMSZzZWFyY2hfaWQ9ZDU1NGRlZWItMDJlNS00NGE2LWI5ZGUtZjE5YWU5NjE5YzJmJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9MTMxMjU3NTc3JnNwbGl0X3Rlc3RfbmFtZT0mc3BsaXRfdGVzdF92YXJpYW50PSZ0ZXJtPXRyaWFuZ2xl" data-internal="false" data-page="1" data-position="1" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="22139" data-resource-is-premium="true" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Fire Triangle Stroke Animation 4K">
+    <img alt="Fire Triangle Stroke Animation 4K" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/022/139/small/thumbnail.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/022/139/small_2x/thumbnail.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/022/139/small/thumbnail.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Fire Triangle Stroke Animation 4K
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb is-premium-resource is-pro">
+
+
+  
+  <a href="/abstract/25108-abstract-background-loop-with-neon-shiny-triangle" class="ez-resource-thumb__link sponsored-premium-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTImcHJlbWl1bT1mYWxzZSZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJnJlc291cmNlX2lkPTI1MTA4JnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTVlOGY4N2UyLWYxNGQtNGU3Yy1iYzUzLWJiOWMyODJlMDBkMSZzZWFyY2hfaWQ9ZDU1NGRlZWItMDJlNS00NGE2LWI5ZGUtZjE5YWU5NjE5YzJmJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9MTMxMjU3NTc3JnNwbGl0X3Rlc3RfbmFtZT0mc3BsaXRfdGVzdF92YXJpYW50PSZ0ZXJtPXRyaWFuZ2xl" data-internal="false" data-page="1" data-position="2" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="25108" data-resource-is-premium="true" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract Background Loop With Neon Shiny Triangle">
+    <img alt="Abstract Background Loop With Neon Shiny Triangle" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/025/108/small/thumbnail-inverted.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/025/108/small_2x/thumbnail-inverted.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/025/108/small/thumbnail-inverted.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract Background Loop With Neon Shiny Triangle
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb is-premium-resource is-pro">
+
+
+  
+  <a href="/abstract/22113-abstract-triangle-shapes-spinning-background-loop" class="ez-resource-thumb__link sponsored-premium-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTMmcHJlbWl1bT1mYWxzZSZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJnJlc291cmNlX2lkPTIyMTEzJnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTVlOGY4N2UyLWYxNGQtNGU3Yy1iYzUzLWJiOWMyODJlMDBkMSZzZWFyY2hfaWQ9ZDU1NGRlZWItMDJlNS00NGE2LWI5ZGUtZjE5YWU5NjE5YzJmJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9MTMxMjU3NTc3JnNwbGl0X3Rlc3RfbmFtZT0mc3BsaXRfdGVzdF92YXJpYW50PSZ0ZXJtPXRyaWFuZ2xl" data-internal="false" data-page="1" data-position="3" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="22113" data-resource-is-premium="true" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract Triangle Shapes Spinning Background Loop">
+    <img alt="Abstract Triangle Shapes Spinning Background Loop" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/022/113/small/4k-abstract-wireframe-background-loop-clip.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/022/113/small_2x/4k-abstract-wireframe-background-loop-clip.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/022/113/small/4k-abstract-wireframe-background-loop-clip.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract Triangle Shapes Spinning Background Loop
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb is-premium-resource is-pro">
+
+
+  
+  <a href="/abstract/25123-abstract-background-loop-with-neon-shiny-triangle" class="ez-resource-thumb__link sponsored-premium-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTQmcHJlbWl1bT1mYWxzZSZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJnJlc291cmNlX2lkPTI1MTIzJnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTVlOGY4N2UyLWYxNGQtNGU3Yy1iYzUzLWJiOWMyODJlMDBkMSZzZWFyY2hfaWQ9ZDU1NGRlZWItMDJlNS00NGE2LWI5ZGUtZjE5YWU5NjE5YzJmJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9MTMxMjU3NTc3JnNwbGl0X3Rlc3RfbmFtZT0mc3BsaXRfdGVzdF92YXJpYW50PSZ0ZXJtPXRyaWFuZ2xl" data-internal="false" data-page="1" data-position="4" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="25123" data-resource-is-premium="true" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract Background Loop With Neon Shiny Triangle">
+    <img alt="Abstract Background Loop With Neon Shiny Triangle" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/025/123/small/thumbnail.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/025/123/small_2x/thumbnail.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/025/123/small/thumbnail.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract Background Loop With Neon Shiny Triangle
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb is-premium-resource is-pro">
+
+
+  
+  <a href="/abstract/25132-abstract-background-loop-with-neon-shiny-triangle" class="ez-resource-thumb__link sponsored-premium-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTUmcHJlbWl1bT1mYWxzZSZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJnJlc291cmNlX2lkPTI1MTMyJnJlc291cmNlX2lzX3ByZW1pdW09dHJ1ZSZyb2xsb3V0X2lkPTVlOGY4N2UyLWYxNGQtNGU3Yy1iYzUzLWJiOWMyODJlMDBkMSZzZWFyY2hfaWQ9ZDU1NGRlZWItMDJlNS00NGE2LWI5ZGUtZjE5YWU5NjE5YzJmJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9MTMxMjU3NTc3JnNwbGl0X3Rlc3RfbmFtZT0mc3BsaXRfdGVzdF92YXJpYW50PSZ0ZXJtPXRyaWFuZ2xl" data-internal="false" data-page="1" data-position="5" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="25132" data-resource-is-premium="true" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract Background Loop With Neon Shiny Triangle">
+    <img alt="Abstract Background Loop With Neon Shiny Triangle" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/025/132/small/bicolored.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/025/132/small_2x/bicolored.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/025/132/small/bicolored.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract Background Loop With Neon Shiny Triangle
+      </div>
+    </div>
+  </div>
+</li>
+
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/8214-zooming-triangles-motion-graphic-in-4k" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTYmcHJlbWl1bT1mYWxzZSZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJnJlc291cmNlX2lkPTgyMTQmcmVzb3VyY2VfaXNfcHJlbWl1bT1mYWxzZSZyb2xsb3V0X2lkPTVlOGY4N2UyLWYxNGQtNGU3Yy1iYzUzLWJiOWMyODJlMDBkMSZzZWFyY2hfaWQ9ZDU1NGRlZWItMDJlNS00NGE2LWI5ZGUtZjE5YWU5NjE5YzJmJnNlYXJjaF9wYWdlX3ZpZXdfZXZlbnRfaWQ9MTMxMjU3NTc3JnNwbGl0X3Rlc3RfbmFtZT0mc3BsaXRfdGVzdF92YXJpYW50PSZ0ZXJtPXRyaWFuZ2xl" data-internal="false" data-page="1" data-position="6" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="8214" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Zooming Triangles Motion Graphic in 4K">
+    <img alt="Zooming Triangles Motion Graphic in 4K" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/008/214/small/zooming-triangles-motion-graphic-in-4k.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/214/small_2x/zooming-triangles-motion-graphic-in-4k.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/008/214/small/zooming-triangles-motion-graphic-in-4k.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Zooming Triangles Motion Graphic in 4K
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18955-abstract-connected-triangles-on-bright-black-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTcmcHJlbWl1bT1mYWxzZSZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJnJlc291cmNlX2lkPTE4OTU1JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="7" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18955" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected triangles on bright black background. Technology concept">
+    <img alt="Abstract connected triangles on bright black background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/955/small/black-plate.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/955/small_2x/black-plate.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/955/small/black-plate.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected triangles on bright black background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18965-abstract-connected-triangles-on-bright-blue-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTgmcHJlbWl1bT1mYWxzZSZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJnJlc291cmNlX2lkPTE4OTY1JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="8" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18965" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected triangles on bright blue background. Technology concept">
+    <img alt="Abstract connected triangles on bright blue background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/965/small/blue-plate.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/965/small_2x/blue-plate.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/965/small/blue-plate.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected triangles on bright blue background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18974-abstract-connected-triangles-on-bright-grey-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTkmcHJlbWl1bT1mYWxzZSZyZWZlcnJlcj1odHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJnJlc291cmNlX2lkPTE4OTc0JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="9" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18974" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected triangles on bright grey background. Technology concept">
+    <img alt="Abstract connected triangles on bright grey background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/974/small/grey-plate.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/974/small_2x/grey-plate.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/974/small/grey-plate.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected triangles on bright grey background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18956-abstract-connected-triangles-on-bright-red-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTEwJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODk1NiZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="10" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18956" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected triangles on bright red background. Technology concept">
+    <img alt="Abstract connected triangles on bright red background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/956/small/red-plate.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/956/small_2x/red-plate.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/956/small/red-plate.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected triangles on bright red background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18981-abstract-connected-triangles-on-bright-green-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTExJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODk4MSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="11" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18981" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected triangles on bright green background. Technology concept">
+    <img alt="Abstract connected triangles on bright green background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/981/small/green-plate.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/981/small_2x/green-plate.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/981/small/green-plate.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected triangles on bright green background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18983-abstract-connected-triangles-on-bright-purple-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTEyJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODk4MyZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="12" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18983" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected triangles on bright purple background. Technology concept">
+    <img alt="Abstract connected triangles on bright purple background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/983/small/pink-plate.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/983/small_2x/pink-plate.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/983/small/pink-plate.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected triangles on bright purple background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/8220-3d-aztec-triangle-design-motion-graphic-in-4k" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTEzJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD04MjIwJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="13" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="8220" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="3D Aztec Triangle Design Motion Graphic in 4K">
+    <img alt="3D Aztec Triangle Design Motion Graphic in 4K" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/008/220/small/3d-aztec-triangle-design-motion-graphic-in-4k.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/220/small_2x/3d-aztec-triangle-design-motion-graphic-in-4k.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/008/220/small/3d-aztec-triangle-design-motion-graphic-in-4k.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        3D Aztec Triangle Design Motion Graphic in 4K
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/5087-organic-lines-4k-motion-background-loop" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTE0JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD01MDg3JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="14" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="5087" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Organic Lines 4K Motion Background Loop">
+    <img alt="Organic Lines 4K Motion Background Loop" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/005/087/small/organic-lines-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/087/small_2x/organic-lines-4k-motion-background-loop.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/005/087/small/organic-lines-4k-motion-background-loop.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Organic Lines 4K Motion Background Loop
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/8154-3d-lavender-moving-floor-in-4k" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTE1JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD04MTU0JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="15" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="8154" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="3D Lavender Moving Floor in 4K">
+    <img alt="3D Lavender Moving Floor in 4K" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/008/154/small/3d-lavender-moving-floor-in-4k.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/154/small_2x/3d-lavender-moving-floor-in-4k.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/008/154/small/3d-lavender-moving-floor-in-4k.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        3D Lavender Moving Floor in 4K
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/8153-blue-moving-floor-4k-motion-graphic" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTE2JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD04MTUzJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="16" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="8153" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Blue Moving Floor 4K Motion Graphic">
+    <img alt="Blue Moving Floor 4K Motion Graphic" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/008/153/small/blue-moving-floor-4k-motion-graphic.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/153/small_2x/blue-moving-floor-4k-motion-graphic.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/008/153/small/blue-moving-floor-4k-motion-graphic.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Blue Moving Floor 4K Motion Graphic
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18961-abstract-connected-dots-on-bright-blue-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTE3JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODk2MSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="17" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18961" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected dots on bright blue background. Technology concept">
+    <img alt="Abstract connected dots on bright blue background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/961/small/blue.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/961/small_2x/blue.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/961/small/blue.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected dots on bright blue background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18969-abstract-connected-dots-on-bright-black-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTE4JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODk2OSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="18" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18969" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected dots on bright black background. Technology concept">
+    <img alt="Abstract connected dots on bright black background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/969/small/black.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/969/small_2x/black.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/969/small/black.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected dots on bright black background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/travel/4991-outside-the-louvre-museum-in-paris-france-4k" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTE5JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD00OTkxJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="19" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="4991" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Outside the Louvre Museum in Paris, France 4K">
+    <img alt="Outside the Louvre Museum in Paris, France 4K" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/004/991/small/outside-the-louvre-museum-in-paris-france-4k.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/991/small_2x/outside-the-louvre-museum-in-paris-france-4k.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/004/991/small/outside-the-louvre-museum-in-paris-france-4k.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Outside the Louvre Museum in Paris, France 4K
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18206-3d-model-of-light-bulb-geometric-model-of-luminous-lines-green" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTIwJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODIwNiZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="20" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18206" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="3d model of light bulb geometric model of luminous lines green">
+    <img alt="3d model of light bulb geometric model of luminous lines green" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/206/small/gluehbirne.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/206/small_2x/gluehbirne.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/206/small/gluehbirne.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        3d model of light bulb geometric model of luminous lines green
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/8155-3d-green-moving-floor-in-4k" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTIxJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD04MTU1JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="21" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="8155" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="3D Green Moving Floor in 4K">
+    <img alt="3D Green Moving Floor in 4K" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/008/155/small/3d-green-moving-floor-in-4k.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/155/small_2x/3d-green-moving-floor-in-4k.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/008/155/small/3d-green-moving-floor-in-4k.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        3D Green Moving Floor in 4K
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/5106-tri-particles-4k-motion-background-loop" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTIyJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD01MTA2JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="22" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="5106" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Tri Particles 4K Motion Background Loop">
+    <img alt="Tri Particles 4K Motion Background Loop" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/005/106/small/tri-particles-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/106/small_2x/tri-particles-4k-motion-background-loop.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/005/106/small/tri-particles-4k-motion-background-loop.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Tri Particles 4K Motion Background Loop
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18947-abstract-connected-dots-on-bright-grey-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTIzJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODk0NyZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="23" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18947" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected dots on bright grey background. Technology concept">
+    <img alt="Abstract connected dots on bright grey background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/947/small/grey.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/947/small_2x/grey.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/947/small/grey.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected dots on bright grey background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18975-abstract-connected-dots-on-bright-purple-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTI0JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODk3NSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="24" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18975" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected dots on bright purple background. Technology concept">
+    <img alt="Abstract connected dots on bright purple background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/975/small/pink.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/975/small_2x/pink.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/975/small/pink.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected dots on bright purple background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/5726-color-wheel" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTI1JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD01NzI2JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="25" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="5726" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Color wheel">
+    <img alt="Color wheel" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/005/726/small/color-wheel.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/726/small_2x/color-wheel.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/005/726/small/color-wheel.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Color wheel
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/after-effects-templates/4685-stylish-geometric-slideshow-after-effects-template" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTI2JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD00Njg1JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="26" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="4685" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Stylish Geometric Slideshow After Effects Template">
+    <img alt="Stylish Geometric Slideshow After Effects Template" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/004/685/small/stylish-geometric-slideshow-video.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/004/685/small_2x/stylish-geometric-slideshow-video.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/004/685/small/stylish-geometric-slideshow-video.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Stylish Geometric Slideshow After Effects Template
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/5073-geometry-dance-4k-motion-background-loop" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTI3JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD01MDczJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="27" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="5073" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Geometry Dance 4K Motion Background Loop">
+    <img alt="Geometry Dance 4K Motion Background Loop" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/005/073/small/geometry-dance-4k-motion-background-loop.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/005/073/small_2x/geometry-dance-4k-motion-background-loop.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/005/073/small/geometry-dance-4k-motion-background-loop.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Geometry Dance 4K Motion Background Loop
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18959-abstract-connected-dots-on-bright-red-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTI4JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODk1OSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="28" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18959" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected dots on bright red background. Technology concept">
+    <img alt="Abstract connected dots on bright red background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/959/small/red.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/959/small_2x/red.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/959/small/red.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected dots on bright red background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/abstract/18971-abstract-connected-dots-on-bright-green-background-technology-concept" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTI5JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xODk3MSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="29" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="18971" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Abstract connected dots on bright green background. Technology concept">
+    <img alt="Abstract connected dots on bright green background. Technology concept" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/018/971/small/green.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/018/971/small_2x/green.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/018/971/small/green.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Abstract connected dots on bright green background. Technology concept
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/people/7956-geometry-class" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTMwJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD03OTU2JnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="30" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="7956" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="geometry class">
+    <img alt="geometry class" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/007/956/small/geometry-class.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/007/956/small_2x/geometry-class.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/007/956/small/geometry-class.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        geometry class
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/8143-color-blocked-4k-motion-background" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTMxJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD04MTQzJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="31" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="8143" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Color Blocked 4K Motion Background">
+    <img alt="Color Blocked 4K Motion Background" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/008/143/small/color-blocked-4k-motion-background.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/008/143/small_2x/color-blocked-4k-motion-background.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/008/143/small/color-blocked-4k-motion-background.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Color Blocked 4K Motion Background
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/backgrounds/11021-looping-black-triangular-background-animation" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTMyJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xMTAyMSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="32" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="11021" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Looping Black Triangular Background Animation">
+    <img alt="Looping Black Triangular Background Animation" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/011/021/small/looping-black-triangular-background-animation.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/011/021/small_2x/looping-black-triangular-background-animation.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/011/021/small/looping-black-triangular-background-animation.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Looping Black Triangular Background Animation
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/people/7763-cutting-shapes" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTMzJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD03NzYzJnJlc291cmNlX2lzX3ByZW1pdW09ZmFsc2Umcm9sbG91dF9pZD01ZThmODdlMi1mMTRkLTRlN2MtYmM1My1iYjljMjgyZTAwZDEmc2VhcmNoX2lkPWQ1NTRkZWViLTAyZTUtNDRhNi1iOWRlLWYxOWFlOTYxOWMyZiZzZWFyY2hfcGFnZV92aWV3X2V2ZW50X2lkPTEzMTI1NzU3NyZzcGxpdF90ZXN0X25hbWU9JnNwbGl0X3Rlc3RfdmFyaWFudD0mdGVybT10cmlhbmdsZQ==" data-internal="false" data-page="1" data-position="33" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="7763" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="cutting shapes">
+    <img alt="cutting shapes" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/007/763/small/cutting-shapes.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/007/763/small_2x/cutting-shapes.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/007/763/small/cutting-shapes.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        cutting shapes
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/random-objects/15064-tangram-pieces" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTM0JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xNTA2NCZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="34" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="15064" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Tangram Pieces">
+    <img alt="Tangram Pieces" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/015/064/small/tangram-pieces.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/015/064/small_2x/tangram-pieces.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/015/064/small/tangram-pieces.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Tangram Pieces
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/random-objects/15065-translucid-tangram-pieces" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTM1JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xNTA2NSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="35" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="15065" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Translucid Tangram Pieces">
+    <img alt="Translucid Tangram Pieces" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/015/065/small/translucid-tangram-pieces.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/015/065/small_2x/translucid-tangram-pieces.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/015/065/small/translucid-tangram-pieces.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Translucid Tangram Pieces
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/random-objects/15084-blue-plasticine-shapes" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTM2JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xNTA4NCZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="36" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="15084" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Blue Plasticine Shapes">
+    <img alt="Blue Plasticine Shapes" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/015/084/small/blue-plasticine-shapes.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/015/084/small_2x/blue-plasticine-shapes.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/015/084/small/blue-plasticine-shapes.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Blue Plasticine Shapes
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/random-objects/15085-green-plasticine-shapes" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTM3JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xNTA4NSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="37" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="15085" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Green Plasticine Shapes">
+    <img alt="Green Plasticine Shapes" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/015/085/small/green-plasticine-shapes.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/015/085/small_2x/green-plasticine-shapes.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/015/085/small/green-plasticine-shapes.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Green Plasticine Shapes
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/random-objects/15087-orange-plasticine-shapes" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTM4JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xNTA4NyZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="38" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="15087" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Orange Plasticine Shapes">
+    <img alt="Orange Plasticine Shapes" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/015/087/small/orange-plasticine-shapes.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/015/087/small_2x/orange-plasticine-shapes.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/015/087/small/orange-plasticine-shapes.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Orange Plasticine Shapes
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/random-objects/15088-pink-plasticine-shapes" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTM5JnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xNTA4OCZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="39" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="15088" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Pink Plasticine Shapes">
+    <img alt="Pink Plasticine Shapes" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/015/088/small/pink-plasticine-shapes.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/015/088/small_2x/pink-plasticine-shapes.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/015/088/small/pink-plasticine-shapes.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Pink Plasticine Shapes
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/random-objects/15089-purple-plasticine-shapes" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTQwJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xNTA4OSZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="40" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="15089" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Purple Plasticine Shapes">
+    <img alt="Purple Plasticine Shapes" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/015/089/small/purple-plasticine-shapes.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/015/089/small_2x/purple-plasticine-shapes.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/015/089/small/purple-plasticine-shapes.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Purple Plasticine Shapes
+      </div>
+    </div>
+  </div>
+</li>
+
+    
+<li data-height="120"
+    data-width="188"
+    class="ez-resource-grid__item ez-resource-thumb  ">
+
+
+  
+  <a href="/random-objects/15090-yellow-plasticine-shapes" class="ez-resource-thumb__link internal-resource" data-algo-version="v1" data-behavior="search-click-event" data-domain="www.videezy.com" data-hash="YWxnb192ZXJzaW9uPXYxJmRvbWFpbj13d3cudmlkZWV6eS5jb20maW50ZXJuYWw9ZmFsc2UmcGFnZT0xJnBvc2l0aW9uPTQxJnByZW1pdW09ZmFsc2UmcmVmZXJyZXI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiZyZXNvdXJjZV9pZD0xNTA5MCZyZXNvdXJjZV9pc19wcmVtaXVtPWZhbHNlJnJvbGxvdXRfaWQ9NWU4Zjg3ZTItZjE0ZC00ZTdjLWJjNTMtYmI5YzI4MmUwMGQxJnNlYXJjaF9pZD1kNTU0ZGVlYi0wMmU1LTQ0YTYtYjlkZS1mMTlhZTk2MTljMmYmc2VhcmNoX3BhZ2Vfdmlld19ldmVudF9pZD0xMzEyNTc1Nzcmc3BsaXRfdGVzdF9uYW1lPSZzcGxpdF90ZXN0X3ZhcmlhbnQ9JnRlcm09dHJpYW5nbGU=" data-internal="false" data-page="1" data-position="41" data-premium="false" data-referrer="https://www.google.com/" data-resource-id="15090" data-resource-is-premium="false" data-rollout-id="5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1" data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f" data-search-page-view-event-id="131257577" data-split-test-name="null" data-split-test-variant="null" data-term="triangle" title="Yellow Plasticine Shapes">
+    <img alt="Yellow Plasticine Shapes" class="ez-resource-thumb__img" src="https://static.videezy.com/system/resources/thumbnails/000/015/090/small/yellow-plasticine-shapes.jpg" srcset="https://static.videezy.com/system/resources/thumbnails/000/015/090/small_2x/yellow-plasticine-shapes.jpg 2x, https://static.videezy.com/system/resources/thumbnails/000/015/090/small/yellow-plasticine-shapes.jpg 1x" />
+</a>
+
+
+  <div class="ez-resource-thumb__hover-state">
+    <div class="ez-resource-thumb__gray-dient">
+      <div class="ez-resource-thumb__name-content">
+        Yellow Plasticine Shapes
+      </div>
+    </div>
+  </div>
+</li>
+
+
+</ul>
+
+      <div id="browse_sstk">
+      <h2>
+        Browse More Triangle Footage from Shutterstock
+      </h2>
+    </div>
+    <ul class="sstk-justified-grid videezy-sstk-grid">
+</ul>
+
+<div class="videezy-loading"></div>
+
+  
+
+
+
+    <div class="bottom-sstk">
+    </div>
+
+    <div class="sstk-browse-wrapper">
+    </div>
+
+    <div class="pager-wrapper">
+      
+  <!--this is legacy Code I'm not sure why it is used-->
+  <!--End legacy code.-->
+
+  
+
+    </div>
+    
+  </div>
+</div><!-- end: content-inner -->
+
+<script>
+    var internalSearch = false;
+</script>
+
+
+
+      </div>
+    </div>
+
+    
+
+
+    
+
+      
+      
+
+
+
+
+    <footer class="site-footer new">
+  <div class="max-inner">
+
+    <div class="footer-nav row">
+      <div class="col">
+        <h4>Our network</h4>
+        <ul>
+          <li><a href="https://www.brusheezy.com">Brusheezy</a></li>
+          <li><a href="https://www.vecteezy.com">Vecteezy</a></li>
+          <li><a href="https://www.videezy.com">Videezy</a></li>
+          <li><a href="https://www.themezy.com">Themezy</a></li>
+          <li><a href="http://www.eezy.com/contributors">Become a Contributor</a><li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>Site links</h4>
+        <ul>
+          <li><a href="/deals">Deals</a></li>
+          <li><a href="/advertising">Advertise</a></li>
+          <li><a href="https://support.videezy.com" class="" target="_blank">Support</a></li>
+              <li><a href="https://support.videezy.com/hc/en-us/articles/115002183131-Digital-Millennium-Copyright-Act-DMCA-" target="_blank">DMCA</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h4>Languages</h4>
+        <ul>
+
+            <li>
+              <a href="https://www.videezy.com/free-video/triangle" class="locale-footer-link en" rel="nofollow">English</a>
+            </li>
+            <li>
+              <a href="https://es.videezy.com/video-gratis/triangle" class="locale-footer-link es" rel="nofollow">Español</a>
+            </li>
+            <li>
+              <a href="https://pt.videezy.com/video-livre/triangle" class="locale-footer-link pt" rel="nofollow">Português</a>
+            </li>
+            <li>
+              <a href="https://de.videezy.com/gratis-video/triangle" class="locale-footer-link de" rel="nofollow">Deutsch</a>
+            </li>
+          <li class="more-languages" data-action="toggle-language-switcher" data-switcher-target="footer-locale-switcher">
+            <a href="#" class="footer-locale-more-link">More...</a>
+
+            <div id="footer-locale-switcher" class="ez-language-switcher ez-tooltip ez-tooltip--arrow-bottom">
+  <div class="ez-tooltip__arrow ez-tooltip__arrow--middle"></div>
+  <div class="ez-tooltip__content">
+    <ul>
+        <li>
+          
+            <span class="nested-locale-switcher-link en current">
+              English
+              <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 11.93 9.39"><polygon points="11.93 1.76 10.17 0 4.3 5.87 1.76 3.32 0 5.09 4.3 9.39 11.93 1.76"></polygon></svg>
+
+            </span>
+        </li>
+        <li>
+          <a href="https://es.videezy.com/video-gratis/triangle" class="nested-locale-switcher-link es" data-locale="es" rel="nofollow">Español</a>        </li>
+        <li>
+          <a href="https://pt.videezy.com/video-livre/triangle" class="nested-locale-switcher-link pt" data-locale="pt" rel="nofollow">Português</a>        </li>
+        <li>
+          <a href="https://de.videezy.com/gratis-video/triangle" class="nested-locale-switcher-link de" data-locale="de" rel="nofollow">Deutsch</a>        </li>
+        <li>
+          <a href="https://fr.videezy.com/video-libre/triangle" class="nested-locale-switcher-link fr" data-locale="fr" rel="nofollow">Français</a>        </li>
+        <li>
+          <a href="https://nl.videezy.com/gratis-video/triangle" class="nested-locale-switcher-link nl" data-locale="nl" rel="nofollow">Nederlands</a>        </li>
+        <li>
+          <a href="https://sv.videezy.com/gratis-video/triangle" class="nested-locale-switcher-link sv" data-locale="sv" rel="nofollow">Svenska</a>        </li>
+        <li>
+          <a href="https://it.videezy.com/gratis-video/triangle" class="nested-locale-switcher-link it" data-locale="it" rel="nofollow">Italiano</a>        </li>
+    </ul>
+  </div>
+</div>
+
+<span class="ez-language-switcher__overlay"></span>
+
+          </li>
+        </ul>
+      </div>
+
+      <div class="col col_about">
+        <h4>About Us</h4>
+        <ul>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="http://www.eezy.com/team">Our Team</a></li>
+          <li><a href="/blog">Our Blog</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom row">
+      <div class="footer-bottom-inner">
+        <a href="http://eezy.com" class="eezy-logo" title="Eezy Inc."><img alt="Eezy-logo" src="https://static.videezy.com/assets/eezy-logo-3ea26c89a4ddb6c0d835c64e0fc6679c.svg" /></a>
+
+        <ul class="social-links">
+          <li><a href="https://www.facebook.com/videezy" target="_blank" title="facebook"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-facebook-square"></i></a></li>
+          <li><a href="https://twitter.com/videezy" target="_blank" title="twitter"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-twitter"></i></a></li>
+          <li><a href="https://google.com/+vecteezy" target="_blank" title="googleplus"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-google-plus"></i></a></li>
+          <li><a href="https://pinterest.com/videezy/" target="_blank" title="pinterest"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-pinterest"></i></a></li>
+          <li><a href="https://instagram.com/eezy/" target="_blank" title="instagram"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.snapchat.com/add/eezy" target="_blank" title="snapchat"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-snapchat-ghost"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/eezy.com" target="_blank" title="linkedin"><i aria="{:hidden=&gt;&quot;true&quot;}" class="fa fa-linkedin-square"></i></a></li>
+          
+        </ul>
+
+        <div class="footer-aux">
+          <p class="footer-copyright">&copy; 2019 Eezy Inc. All rights reserved</p>
+          <span class="bullet-sep"> &bullet; </span>
+          <ul>
+            <li><a href="/terms">Terms of Use</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+
+      
+      <script src="https://static.videezy.com/assets/essential_top_scripts-f4284b1a59076ce78e77d0baabc3d6b0.js" type="text/javascript"></script>
+      <script defer="defer" src="https://static.videezy.com/assets/shutterstock-api-c5cb888182fd08f30904ceac4acb32c4.js" type="text/javascript"></script>
+      <script defer="defer" src="https://static.videezy.com/assets/application-f8ce1ca0694e70105cb065a5c289b489.js" type="text/javascript"></script>
+        <script defer="defer" src="https://static.videezy.com/assets/shutterstock-presentation-9234d88cfccff31e2c53cd040a9200c6.js" type="text/javascript"></script>
+      <script defer="defer" src="https://static.videezy.com/assets/redesign-functionality-c66abedabdc263cc2a6d2731ebad82ee.js" type="text/javascript"></script>
+
+      <script defer="defer" src="https://static.videezy.com/assets/underpop-1e4b50cf734997e6af3db5b12a751a6a.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var is_search_page = true;
+  </script>
+  <script src="https://static.videezy.com/assets/search/click_events-8f8815581827efc6526f0c194805499a.js" type="text/javascript"></script>
+
+    <script>track('hreflang_missing_translation', 'en', 'triangle');</script>
+
+
+  <script src="https://static.videezy.com/assets/custom_checkbox-11080eb9d85573d81f7c1e1ab3492786.js" type="text/javascript"></script>
+  <script src="https://static.videezy.com/assets/tippy.all.min-195fd3e142668293133294b406d48512.js" type="text/javascript"></script>
+  <script src="https://static.videezy.com/assets/search_filters-0442ffb557b320f859335ced4d7c579b.js" type="text/javascript"></script>
+
+  <script>
+      $(function () {
+          var params = {"controller":"searches","action":"show","locale":"en","search":"triangle"};
+          var state = fetchState();
+          $(state.currentState).each(function (i, v) {
+              if (!(v in params)) {
+                  fireSearchFilterAJAX();
+                  return false;
+              }
+          })
+      });
+
+      var initBrowseSSTK = function () {
+          var elem = $('ul.sstk-justified-grid');
+var SSTK_GRID = {
+
+    current_page: 1,
+    loading_results: false,
+
+    display_results: function (options) {
+
+        SSTK_GRID.loading_results = true;
+
+        SSTK_GRID.fetch_results(options).then(function (results) {
+            if ($.trim(results)) {
+                elem.append(results);
+                SSTK_GRID.current_page += 1;
+                $('div#browse_sstk').show();
+                return true;
+            } else {
+                return false;
+            }
+
+        }).then(function (results_found) {
+            if (results_found == true) {
+                SSTK_GRID.justify_results();
+            }
+            return results_found;
+        }).then(function (results_found) {
+            if (results_found == true) {
+                SSTK_GRID.resize_results();
+            }
+            return results_found;
+        }).then(function (results_found) {
+            // Call next page so it's cached
+            if (results_found == true) {
+                SSTK_GRID.fetch_results(options);
+                SSTK_GRID.loading_results = false;
+            }
+        });
+
+    },
+
+    // Re-useable fetch <li> results from server
+    fetch_results: function (options) {
+        SSTK_GRID.loading_results = true;
+        return $.ajax({
+            url: "/resources/shutterstock/justified_results.html",
+            data: options,
+            cache: true,
+        }).done(function (results) {
+            $('.vecteezy-loading').hide();
+        }).fail(function (xhr) {
+            $('.vecteezy-loading').hide();
+        });
+    },
+
+    // Flex images to justify results
+    justify_results: function (options) {
+        elem.flexImages({
+            container: 'li',
+            rowHeight: 150,
+            object: 'img',
+            truncate: true
+        });
+
+    },
+
+    // Resize results to fit the justified grid
+    resize_results: function (options) {
+        elem.find('li.sstk-item').each(function () {
+            var li_w = $(this).width();
+            var li_h = $(this).height();
+            var img = $(this).find('img');
+            var wrapper = $(this).find('span');
+
+            wrapper.css('height', li_h + 'px');
+            wrapper.css('width', li_w + 'px');
+            img.css('width', '100%');
+        });
+    },
+
+    is_scrolled_into_view: function (selector) {
+        var $element = $(selector),
+            $window = $(window),
+            docViewTop = $window.scrollTop(),
+            docViewBottom = docViewTop + $window.height(),
+            elementTop = $element.offset().top,
+            elementBottom = elementTop + ($element.height() - 800)
+        ;
+        return elementBottom <= docViewBottom;
+    }
+}
+
+$(function () {
+
+    // Load initial results
+    var query = 'triangle';
+    var per_page = 60;
+    var options = {
+        query: query,
+        page: SSTK_GRID.current_page,
+        solr_hits: 36,
+        per_page: per_page
+    }
+
+    SSTK_GRID.display_results(options);
+
+    // Load more results
+    var win = $(window);
+    win.scroll(function () {
+
+        if (SSTK_GRID.is_scrolled_into_view('#main')) {
+            var options = {
+                query: query,
+                page: SSTK_GRID.current_page,
+                per_page: per_page
+            }
+
+            var displayed_count = elem.find('li').length;
+            var total_count = elem.find('li').last().data('total');
+
+            if (SSTK_GRID.loading_results === false && displayed_count < total_count) {
+                $('.vecteezy-loading').show();
+                SSTK_GRID.display_results(options);
+            }
+        }
+    });
+});
+      }
+  </script>
+
+    <script src="https://static.videezy.com/assets/pager-eced94eedf324b4b4653c1019d28f212.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      function sstkFunction() {
+
+        var search = $('[name=eezysearch]').val(),
+            page = $('[name=eezypage]').val(),
+            ref = null;//'$('[name=eezyref]').val(),
+            pos = $('[name=eezypos]').val();
+
+
+        var funct = "search";
+        //This is in case we want to override a sub id elsewhere
+        if (window.sub_id_1) {
+          var sub_id_1 = window.sub_id_1;
+        } else {
+          var sub_id_1 = 'search-top';
+        }
+
+        var sh_atid = "sharedid=www.videezy.com&subId1="+ sub_id_1 + "&subId2="+encodeURI(search)+"&subId3=";
+
+        var new_sh_atid = $('#sh_atid').data("atid");
+
+        //This is for the delayed download page
+        if (new_sh_atid !== undefined) {
+          $('#shutterstockapi').data('limit', "28");
+          sh_atid = new_sh_atid;
+        }
+
+        $('.eezyapi[data-affiliate=shutterstock]').each(function() {
+          $(this).data('urlparams', sh_atid);
+          $(this).data('ird', '38919');
+          $(this).data('loc', 'en');
+            $(this).data('apiparams', "type=video&s=videezy");
+        });
+
+        var noResultTimer = setTimeout(function() {track("sponsored_search_without_results", search)}, 15 * 1000);
+
+        $(document).on("click", ".eezyapi[data-affiliate='shutterstock'] li a", function(e) {
+          track("click", search, "shutterstock");
+        });
+
+        $('.eezyapi[data-affiliate=shutterstock]').bind('resultsLoaded', function(event, results) {
+          window.clearTimeout(noResultTimer);
+          $('#shutterstock-search-form input[type=text]').val(search);
+          $('#shutterstock-search-form input[type=text]').placeholder();
+          $('#shutterstock-search-form input[name="subId2"]').val(search);
+          $('#shutterstock-search-form input[name="subId3"]').val("");
+          $('.eezyapi ul.is--sponsored li').append('<div class="corner-ribbon--sponsored"></div>');
+          $('#shutterstockapi.eezyapi').addClass('has--ss-results'); // styles gray box
+        });
+
+      }
+      sstkFunction();
+    </script>
+
+    <script class="shutterstock result" type="text/template">
+      <li>
+        
+<a class="affiliate-shutterstock" title="{{description}}"
+                                  rel="nofollow"
+                                  target="_blank"
+                                  href="{{url}}"
+                                  data-term="triangle"
+                                  data-page="1"
+                                  data-premium="false"
+                                  data-internal="false"
+                                  data-search-page-view-event-id="131257577"
+                                  data-algo-version="v1"
+                                  data-split-test-name=""
+                                  data-split-test-variant=""
+                                  data-referrer="https://www.google.com/"
+                                  data-search-id="d554deeb-02e5-44a6-b9de-f19ae9619c2f"
+                                  data-domain="www.videezy.com">
+  <span><img src="{{image_url}}" alt="{{description}}"/></span>
+</a>
+
+      </li>
+    </script>
+
+    <script class="shutterstock container" type="text/template">
+      <div class="sponsored shutterstock ss-results-block">
+        <div class="header">
+          <div class="ss-logo-text__wrapper">Sponsored Videos by <span class="ss-logo-text"><span>Shutter</span>st<span>o</span>ck</span></div>
+          <a href="coupon"  onclick="SHUTTERBANNER();return false;" class="banner shutter-promo-banner">
+            Click to reveal a promo code to Save 10% off ALL subscriptions.
+          </a>
+        </div>
+        <ul class="api-results is--justified in-gray-box videezy-sponsored-grid"></ul>
+      </div>
+    </script>
+  <script>
+          var coupon_code = "VIDZ10";
+  </script>
+  <script>
+    var term = $('#search-term').val();
+
+    if ($('.ez-search-form__input').length) {
+      term = $('.ez-search-form__input').val();
+    }
+
+    var SHUTTERBANNER = function() {  var href = 'http://shutterstock.7eer.net/c/38919/42119/1305?u=https%3A%2F%2Fwww.shutterstock.com%2Fvideo%2F%3Futm_medium%3DAffiliate%26utm_campaign%3DEezy%2520Inc%26utm_source%3D38919%26irgwc%3D1&sharedid=www.videezy.com&subId1=coupon&subId2='+encodeURI(term)+'&subId3='+getCookie('ga-client-id')+'';      var win = window.open("", "shutterstock-sale", "width=520,height=320");       var wrap = win.document.createElement('div'); wrap.setAttribute('class', 'sale-wrapper');      var logo = win.document.createElement('img');logo.setAttribute('src', 'http://static.vecteezy.com/system/assets/asset_files/000/000/214/original/shutterstock-logo.jpg');wrap.appendChild(logo);      var code = win.document.createElement('div');code.setAttribute('class','code');code.appendChild(win.document.createTextNode(coupon_code));wrap.appendChild(code);      var expires = win.document.createElement('div');expires.setAttribute('class','expire');expires.appendChild(win.document.createTextNode("Hurry! Offer Expires January 31st, 2020"));wrap.appendChild(expires);      var close = win.document.createElement('a');close.setAttribute('href', '#');close.appendChild(win.document.createTextNode("Close Window"));wrap.appendChild(close);      var style = win.document.createElement('style');      close.setAttribute('onclick', 'window.close();return false;');      style.appendChild(win.document.createTextNode("a{margin-top: 40px;display:block;font-size:12px;color:rgb(73,149,203);text-decoration:none;} .expire{margin-top:16px;color: rgb(81,81,81);font-size:24px;} .code{margin-top:20px;font-size:50px;font-weight:700;text-transform:uppercase;} img{margin-top:44px;} body{padding:0;margin:0;text-align:center;font-family:sans-serif;} .sale-wrapper{height:288px;border:16px solid #a1a1a1;}"));      win.document.body.appendChild(style);      win.document.body.appendChild(wrap);window.location = href;}</script>
+
+    <script>
+        var elem = $('ul.sstk-justified-grid');
+var SSTK_GRID = {
+
+    current_page: 1,
+    loading_results: false,
+
+    display_results: function (options) {
+
+        SSTK_GRID.loading_results = true;
+
+        SSTK_GRID.fetch_results(options).then(function (results) {
+            if ($.trim(results)) {
+                elem.append(results);
+                SSTK_GRID.current_page += 1;
+                $('div#browse_sstk').show();
+                return true;
+            } else {
+                return false;
+            }
+
+        }).then(function (results_found) {
+            if (results_found == true) {
+                SSTK_GRID.justify_results();
+            }
+            return results_found;
+        }).then(function (results_found) {
+            if (results_found == true) {
+                SSTK_GRID.resize_results();
+            }
+            return results_found;
+        }).then(function (results_found) {
+            // Call next page so it's cached
+            if (results_found == true) {
+                SSTK_GRID.fetch_results(options);
+                SSTK_GRID.loading_results = false;
+            }
+        });
+
+    },
+
+    // Re-useable fetch <li> results from server
+    fetch_results: function (options) {
+        SSTK_GRID.loading_results = true;
+        return $.ajax({
+            url: "/resources/shutterstock/justified_results.html",
+            data: options,
+            cache: true,
+        }).done(function (results) {
+            $('.vecteezy-loading').hide();
+        }).fail(function (xhr) {
+            $('.vecteezy-loading').hide();
+        });
+    },
+
+    // Flex images to justify results
+    justify_results: function (options) {
+        elem.flexImages({
+            container: 'li',
+            rowHeight: 150,
+            object: 'img',
+            truncate: true
+        });
+
+    },
+
+    // Resize results to fit the justified grid
+    resize_results: function (options) {
+        elem.find('li.sstk-item').each(function () {
+            var li_w = $(this).width();
+            var li_h = $(this).height();
+            var img = $(this).find('img');
+            var wrapper = $(this).find('span');
+
+            wrapper.css('height', li_h + 'px');
+            wrapper.css('width', li_w + 'px');
+            img.css('width', '100%');
+        });
+    },
+
+    is_scrolled_into_view: function (selector) {
+        var $element = $(selector),
+            $window = $(window),
+            docViewTop = $window.scrollTop(),
+            docViewBottom = docViewTop + $window.height(),
+            elementTop = $element.offset().top,
+            elementBottom = elementTop + ($element.height() - 800)
+        ;
+        return elementBottom <= docViewBottom;
+    }
+}
+
+$(function () {
+
+    // Load initial results
+    var query = 'triangle';
+    var per_page = 60;
+    var options = {
+        query: query,
+        page: SSTK_GRID.current_page,
+        solr_hits: 36,
+        per_page: per_page
+    }
+
+    SSTK_GRID.display_results(options);
+
+    // Load more results
+    var win = $(window);
+    win.scroll(function () {
+
+        if (SSTK_GRID.is_scrolled_into_view('#main')) {
+            var options = {
+                query: query,
+                page: SSTK_GRID.current_page,
+                per_page: per_page
+            }
+
+            var displayed_count = elem.find('li').length;
+            var total_count = elem.find('li').last().data('total');
+
+            if (SSTK_GRID.loading_results === false && displayed_count < total_count) {
+                $('.vecteezy-loading').show();
+                SSTK_GRID.display_results(options);
+            }
+        }
+    });
+});
+    </script>
+
+
+    <script>
+        $(function () {
+            $('a.next-button').attr('href', $('a.next_page').attr('href'));
+        });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var searchTerm;
+
+        if ($('.ez-search-form__input').length) {
+          searchTerm = $('.ez-search-form__input').val();
+        } else {
+          searchTerm = $('#search-term').val();
+        }
+
+        $('body').on('click', 'a.affiliate-shutterstock', function(e) {
+          $.post('|affiliate_clicks|search|triangle'.replace(/\|/g,'/'), {page: 1, internal_search: 'false', referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', 'a.internal-resource', function(e) {
+          $.post('|clicks|search|triangle'.replace(/\|/g,'/'), {page: 1, premium: false, referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', 'a.sponsored-premium-resource', function(e) {
+          $.post('|clicks|search|triangle'.replace(/\|/g,'/'), {premium: true, referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', '.filter-options.popular a', function(e) {
+          $.post('|clicks|related_search|triangle'.replace(/\|/g,'/'), {tag_term: $(this).text(), referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', '.c-tags a', function(e) {
+          $.post('|clicks|related_search_bottom|triangle'.replace(/\|/g,'/'), {tag_term: $(this).text(), referrer: document.referrer});
+          return true;
+        });
+        $('body').on('click', '.pagination a', function(e) {
+          $.post('/clicks/pagination', {ppst: 'triangle', pagination_text: $(this).text(), referrer: document.referrer});
+          return true;
+        });
+        $('#search-form').on('submit', function() {
+          $.post('|clicks|search_search_action'.replace(/\|/g,'/'), {term: searchTerm, referrer: document.referrer})
+          return true;
+        });
+        $('[data-action="new-search"]').on('submit', function() {
+          $.post('|clicks|search_search_action'.replace(/\|/g,'/'), {term: searchTerm, referrer: document.referrer})
+          return true;
+        });
+        $('body').on('click', 'a.login-link', function(e) {
+          $.post('|clicks|login_link'.replace(/\|/g,'/'), {page_type: "search", term: searchTerm, referrer: document.referrer})
+          return true;
+        });
+        $('body').on('click', 'a.signup', function(e) {
+          $.post('|clicks|signup_link'.replace(/\|/g,'/'), {page_type: "search", term: searchTerm, referrer: document.referrer})
+          return true;
+        });
+      });
+    </script>
+        <script type="text/javascript">
+          $("nav.pager a, .pagination-pu a").on('click', function() {
+            var term = $('#search-term').val();
+
+            if ($('.ez-search-form__input').length) {
+              term = $('.ez-search-form__input').val();
+            }
+
+            if ( $.cookies.get('sstk_skipped_SearchPopHome') ) {
+              paginationPopupSubid = "pagination-skipped-homepage";
+            } else {
+              paginationPopupSubid = "pagination";
+            }
+
+              var pu_url = "https://shutterstock.7eer.net/c/38919/111120/1305?subId1="+paginationPopupSubid+"&subId2="+encodeURI(term)+"&subId3="+$.cookies.get('ga-client-id')+"&u=http%3A%2F%2Ffootage.shutterstock.com%2Fsearch%2F"+term.replace(/ /gi,"%2B")+"&sharedid=www.videezy.com"
+
+            if (!$.cookies.get('popped')) {
+              $.cookies.set('popped', '1', {hoursToLive: .5});
+              track("sstk_popup", 'pagination', term);
+              underpop(pu_url);
+            }
+          });
+        </script>
+  <script defer="defer" src="https://static.videezy.com/assets/sticky-header-655694be95c57c3134985872fa745370.js" type="text/javascript"></script>
+
+  <script defer="defer" src="https://static.videezy.com/assets/splittests/temp_styleguide_scripts-40754367cf9f18b6db296b16cc829e65.js" type="text/javascript"></script>
+
+  <script src="https://static.videezy.com/assets/shutterstock-api-justified-399d6113e36762d34f3b213d8f3ada40.js" type="text/javascript"></script>
+
+    <script>
+      ga('send', 'event', 'Search', searchScope, 'triangle', '36', {
+      nonInteraction: true
+    });
+  </script>
+
+
+
+    <script type="text/javascript">
+      track('sstk_position', 'triangle', 'top');
+      $( window ).load(function() {
+        if ($('.rs-carousel-item').length == 0) {
+          track('no_related_search_tags', 'triangle', $('.rs-carousel-item').length);
+        }
+      });
+    </script>
+
+    <script type="text/javascript">
+      $.post("https://search-graph.eezyinc.com/searches", {domain: 'www.videezy.com', user_id: '5e8f87e2-f14d-4e7c-bc53-bb9c282e00d1', scope: 'External', search_term: 'triangle'}, function(data) {});
+    </script>
+
+  <script>
+    function connected_to_facebook() {
+      FB.login(function(response) {
+        if (response.authResponse) {
+         console.log('Welcome!  Fetching your information.... ');
+         FB.api('/me', function(response) {
+           console.log('Good to see you, ' + response.name + '.');
+         });
+          trackFacebookLogin();
+          var isDLReachedModal = false;
+          if($('.download-limit-reached').length) {
+            isDLReachedModal = true;
+          }
+          if (isDLReachedModal) {
+            /* We need to explicitly check for session[:last_viewed_resource_id] being
+            present even though it will never be accessed by the client in a situation where
+            it would be nil because Rails will throw an exception when trying to generate
+            this template otherwise. */
+          } else {
+            window.location.href = "/auth/facebook/callback?" + $.param({ signed_request: response.authResponse.signedRequest });
+          }
+        } else {
+         console.log('User cancelled login or did not fully authorize.');
+        }
+      }, {scope: 'email,public_profile'}); // todo: confirm scope
+    }
+
+    function initFacebookSignin() {
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '433618560134484', // App ID
+          channelUrl : '//www.videezy.com/channel.html', // Channel File
+          status     : true, // check login status
+          cookie     : true, // enable cookies to allow the server to access the session
+          version    : 'v2.7',
+          xfbml      : true  // parse XFBML
+        });
+
+        FB.Event.subscribe('edge.create', function(href, widget) {
+          pageTracker._trackEvent('facebook', 'like', href);
+        });
+        FB.Event.subscribe('auth.login', function(e) {
+          return false;
+        });
+      };
+
+      // Load the SDK Asynchronously
+      (function(d){
+         var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement('script'); js.id = id; js.async = true;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         ref.parentNode.insertBefore(js, ref);
+       }(document));
+    }
+
+      initFacebookSignin();
+  </script>
+
+
+      <script src="https://static.videezy.com/assets/search_tags-83942a359b7b3c9efedde1ad1ed2eb0b.js" type="text/javascript"></script>
+
+
+    
+    
+      
+    <script defer="defer" src="https://static.videezy.com/assets/animated_inputs_hacks-729dc697616e3ca215afee5392b42fca.js" type="text/javascript"></script>
+      <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '359443887835602');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=359443887835602&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+          <script>
+        if (searchScope === "Internal") {
+          fbq('track', 'Search');
+        }
+      </script>
+
+    
+    
+  </body>
+</html>
