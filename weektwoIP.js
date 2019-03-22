@@ -1,3 +1,4 @@
+function triangleDetector() {
 var number1 = parseFloat(prompt ("firstNumber"))
 var number2 = parseFloat(prompt ("secondNumber"))
 var number3 = parseFloat(prompt ("thirdNumber"))
@@ -17,4 +18,5 @@ var correct = function(number1, number2, number3) {
   }
   else {
   alert("Not a triangle, try again!")
-  }  
+};
+}
