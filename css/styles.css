@@ -9,8 +9,8 @@ h2 {
   color: pink;
   }
 html {
-  background-image: url('../images/backgroundimage4.jpg');
-}
+  background-color: grey;
+  }
 .button {
   text-indent: 550px;
 }
@@ -19,9 +19,18 @@ h3 {
 }
 .images {
   float: left;
+  margin: 30px;
+  border: 10px purple;
+  padding: 10px;
+  background color: pink;
 }
 .link {
   color: white;
   font-size: 18px;
   text-indent: 100px;
+}
+@media screen and (min-width: 480px) {
+  body {
+        background-color: grey;
+        }
 }
