@@ -17,7 +17,7 @@ Input: number1=3, number2=4, number3=5 Output: Scalene Triangle}
 HTML, CSS and Javascript commands.
 
 #Link to the live site
-
+https://abigailwambui.github.io/Triangle-Tracker/
 ##Contact information.
 0705923850- Abigail Wambui.
 ##License and Copyright information.
