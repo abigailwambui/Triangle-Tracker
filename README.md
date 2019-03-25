@@ -8,11 +8,10 @@ Abigail Wambui created this application after a week of studying Javascript at M
 ##Setup instructions - includes any scripts that need to be run if necessary.
 The user is required to click a button provided on the application and a prompt to request for entry of the sides of the users triangle of interest will appear where the user may then input their figures to find out whether or not their figures will form the triangle of their choice.
 ##BDD.
-{Input z: Output:Please enter a valid figures
-Input: number1=3, number2=4, number3=9 Output: Not a triangle
-Input: number1=6, number2=6, number3=6 Output: Equilateral TRIANGLE
-Input: number1=6.5, number2=7, number3=6.5 Output: Isosceles TRIANGLE
-Input: number1=3, number2=4, number3=5 Output: Scalene Triangle}
+|Behaviour         |Input                                    |Output
+All sides are equal Sidea=Sideb=sidec                         Equilateral triangle
+Two sides are equal Sidea=Sideb or sideb=sidec or sidea=sidec Isoceles triangle
+No side is equal    Sidea!=sideb!=sidec                       Scalene triangle
 ##Technologies used.
 HTML, CSS and Javascript commands.
 
