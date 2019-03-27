@@ -1,8 +1,8 @@
-# {TRIANGLE TRACKER}
-#### {Tracks whether figures inputted can form a triangle}, {22/ 3/ 2019}
-#### By **{Abigail Wambui and Max Maina}**
+# TRIANGLE TRACKER
+#### Tracks whether figures inputted can form a triangle, (22/ 3/ 2019)
+#### By **Abigail Wambui**
 ## Description
-{This application empowers the user to input figures on the application and the application is able to tell the user whether or not the figures will form a triangle and if they do, what type of a triangle it is between equilateral, isosceles and scalene}
+This application empowers the user to input figures on the application and the application is able to tell the user whether or not the figures will form a triangle and if they do, what type of a triangle it is between equilateral, isosceles and scalene.
 ## Author's information.
 Abigail Wambui created this application after a week of studying Javascript at Moringa School. This is her second week of exposure to programming.
 ## Setup instructions - includes any scripts that need to be run if necessary.
