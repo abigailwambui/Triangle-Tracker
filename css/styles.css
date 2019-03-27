@@ -1,12 +1,11 @@
-.image {
-  Float: left;
-  text-indent: 200px;
-}
+
 h1 {
     color: pink;
+    text-align: center;
   }
 h2 {
   color: pink;
+  text-align: center;
   }
 html {
   background-color: grey;
@@ -16,18 +15,29 @@ html {
 }
 h3 {
   color: pink;
+  text-align: center;
 }
 .images {
-  float: left;
+  float:none;
   margin: 30px;
-  border: 10px purple;
-  padding: 10px;
+  border-left: : 200px purple;
+  padding-left: : 100px;
   background color: pink;
 }
 .link {
   color: white;
   font-size: 18px;
   text-indent: 100px;
+}
+.spacing{
+  padding-top: 70px;
+}
+.button{
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+    font-family: monospace;
 }
 @media screen and (min-width: 480px) {
   body {

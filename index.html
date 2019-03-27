@@ -4,20 +4,27 @@
     <title>TRIANGLE TRACKER</title>
 
     <script src="./weektwoIP.js"></script>
-
+    <link href="./css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class = "image"><image src="./images/triangle.png" width="40" height="40" alt= "A photo of a triangle"></div>
-      <h1><strong><u>TRIANGLE TRACKER</u></strong></h1>
+    <div class = "spacing">
 
+
+      <div class = "image" align="center"><image src="./images/triangle.png" width="70" height="70" alt= "A photo of a triangle"></div><h1><strong><u>TRIANGLE TRACKER</u></strong></h1>
+      <div style = "text-align: center">
+      <form name ="triform" class="text" action = "./weektwoIP.js" method ="post"></form>
+      Side A:<input type = "number" placeholder = "Side A" id="firstNumber"></br></br>
+      Side B:<input type = "number" placeholder = "Side B" id="secondNumber"></br></br>
+      Side C:<input type = "number" placeholder = "Side C" id="thirdNumber"></br></br>
+    </form>
+  </div>
       <h2><strong>Click below button to track whether your figures can form a triangle!</strong></h2>
 
-      <div class = button>
-        <input type= "button" value="Click to track triangle" onclick="triangle()" width= "60" height="60">
-      </div>
+      <p align="center"><button class="button" type="button" onclick="triangle()" class="btn">Click</button></p>
+        <p align="center" id = "triType" class="tri">Triangle : </p>
 
-    <h3>A link on types of triangles:</h3> <div class = 'link'><strong><a href ="./Describeatriangle.html">TRIANGLE TYPES</a></strong></div>
-
+    <h3>A link on types of triangles:</h3> <div class = 'link' style = "text-align: center"><strong><a href ="./Describeatriangle.html">TRIANGLE TYPES</a></strong></div>
+</div>
   </body>
 </html>
