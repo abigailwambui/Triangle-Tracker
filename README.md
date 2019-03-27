@@ -3,23 +3,25 @@
 #### By **{Abigail Wambui and Max Maina}**
 ## Description
 {This application empowers the user to input figures on the application and the application is able to tell the user whether or not the figures will form a triangle and if they do, what type of a triangle it is between equilateral, isosceles and scalene}
-##Author's information.
+## Author's information.
 Abigail Wambui created this application after a week of studying Javascript at Moringa School. This is her second week of exposure to programming.
-##Setup instructions - includes any scripts that need to be run if necessary.
+## Setup instructions - includes any scripts that need to be run if necessary.
 The user is required to click a button provided on the application and a prompt to request for entry of the sides of the users triangle of interest will appear where the user may then input their figures to find out whether or not their figures will form the triangle of their choice.
-##BDD.
-|Behaviour         |Input                                    |Output
-All sides are equal Sidea=Sideb=sidec                         Equilateral triangle
-Two sides are equal Sidea=Sideb or sideb=sidec or sidea=sidec Isoceles triangle
-No side is equal    Sidea!=sideb!=sidec                       Scalene triangle
-##Technologies used.
+## BDD. 
+|Behaviour         |Input                                     | Output                |
+------------------:|-----------------------------------------:|----------------------:|
+All sides are equal| Sidea=Sideb=sidec                        |  Equilateral triangle |
+Two sides are equal| Sidea=Sideb or sideb=sidec or sidea=sidec| Isoceles triangle     |
+No side is equal   | Sidea!=sideb!=sidec                      | Scalene triangle      |
+
+## Technologies used.
 HTML, CSS and Javascript commands.
 
-#Link to the live site
+# Link to the live site
 https://abigailwambui.github.io/Triangle-Tracker/
-##Contact information.
+## Contact information.
 0705923850- Abigail Wambui.
-##License and Copyright information.
+## License and Copyright information.
 MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sub-license, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
